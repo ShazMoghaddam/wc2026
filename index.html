@@ -1,0 +1,2176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FIFA World Cup 2026 — My Prediction</title>
+<meta property="og:title" content="FIFA World Cup 2026 — My Prediction">
+<meta property="og:description" content="See my full FIFA World Cup 2026 bracket predictions — all 32 picks, champion, and final. Built with shazmoghaddam.github.io/wc2026">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FIFA World Cup 2026 Predictor">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="FIFA World Cup 2026 — My Prediction">
+<meta name="twitter:description" content="My full FIFA World Cup 2026 bracket — 32 picks, champion pick, and final prediction.">
+<link rel="canonical" href="https://shazmoghaddam.github.io/wc2026">
+<meta property="og:url" content="https://shazmoghaddam.github.io/wc2026">
+<meta property="og:image" content="https://shazmoghaddam.github.io/wc2026/preview.png">
+<meta name="twitter:image" content="https://shazmoghaddam.github.io/wc2026/preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Crect width='120' height='120' rx='8' fill='%231C39BB'/%3E%3Ctext x='60' y='82' text-anchor='middle' font-family='Arial Black,Impact,sans-serif' font-weight='900' font-size='72' letter-spacing='-4' fill='white' opacity='0.15'%3E26%3C/text%3E%3Cg transform='translate(60,56)' fill='%23c9a227'%3E%3Cellipse cx='0' cy='-36' rx='22' ry='8'/%3E%3Cpath d='M-22,-36 Q-28,-20 -20,-8 Q-12,4 0,8 Q12,4 20,-8 Q28,-20 22,-36 Z'/%3E%3Cpath d='M-22,-30 Q-38,-28 -38,-16 Q-38,-4 -24,-4' stroke='%23c9a227' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3Cpath d='M22,-30 Q38,-28 38,-16 Q38,-4 24,-4' stroke='%23c9a227' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3Crect x='-4' y='8' width='8' height='16' rx='2'/%3E%3Crect x='-14' y='24' width='28' height='6' rx='3'/%3E%3Crect x='-10' y='30' width='20' height='4' rx='2'/%3E%3C/g%3E%3C/svg%3E">
+<meta name="description" content="FIFA World Cup 2026 knockout stage table predictor — predict your Round of 32 winners before the group stage ends Jun 27">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+ --bg:#ffffff;--bg2:#f4f3ef;--bg3:#eae9e3;--bg4:#e0dfd8;
+ --tx:#181816;--tx2:#65645f;--tx3:#9c9b96;
+ --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.20);
+ --blu:var(--persian-lt);--blut:var(--persian);--blua:#2b7fd4;--blua2:#1a6abf;
+ --gold:#b8911e;--goldt:#5a3d00;--goldbg:#fdf6e3;
+  --persian:#1C39BB;--persian-lt:#e8ecf8;--persian-mid:rgba(28,57,187,0.12);--persian-dim:rgba(28,57,187,0.06);
+ --r0:#fafafa;--r1:#f0f2f9;--r2:#e2e6f4;--r3:#d4daef;
+ --rm:9px;--rl:14px;
+ --danger:#c0392b;
+ --sc:0 1px 3px rgba(0,0,0,0.07),0 0 0 0.5px rgba(0,0,0,0.09);
+ --sch:0 3px 10px rgba(0,0,0,0.10),0 0 0 0.5px rgba(0,0,0,0.12);
+ --sw:0 2px 8px rgba(43,127,212,0.18),0 0 0 1.5px rgba(43,127,212,0.35);
+}
+@media(prefers-color-scheme:dark){:root{
+ --bg:#1c1c1a;--bg2:#252523;--bg3:#2e2e2b;--bg4:#363632;
+ --tx:#efede6;--tx2:#96948d;--tx3:#5e5d58;
+ --bd:rgba(255,255,255,0.08);--bds:rgba(255,255,255,0.16);
+ --blu:#0a2038;--blut:#90d0ff;--blua:#4da3f0;--blua2:#6ab8ff;
+ --gold:#c9a227;--goldt:#f5d87a;--goldbg:#1e1800;
+  --persian:#4d6ed4;--persian-lt:#1a2240;--persian-mid:rgba(77,110,212,0.18);--persian-dim:rgba(77,110,212,0.08);
+ --r0:#1e1e1f;--r1:#1e2030;--r2:#222540;--r3:#262a4c;
+ --danger:#e05050;
+ --sc:0 1px 4px rgba(0,0,0,0.4),0 0 0 0.5px rgba(255,255,255,0.06);
+ --sch:0 4px 14px rgba(0,0,0,0.5),0 0 0 0.5px rgba(255,255,255,0.10);
+ --sw:0 2px 10px rgba(28,57,187,0.22),0 0 0 1.5px rgba(28,57,187,0.38);
+}}
+html,body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;background:var(--bg3);color:var(--tx);min-height:100vh;overflow-x:hidden;}
+/* ═══════════════════════════════════════════════════
+   STICKY HEADER — redesigned
+   Layout: single flex row, two visual tiers via padding
+   Teal band at top, content row below
+═══════════════════════════════════════════════════ */
+
+/* Teal accent strip variables */
+:root{
+  --teal:var(--persian);--teal-mid:var(--persian-mid);
+}
+@media(prefers-color-scheme:dark){:root{
+  --teal:var(--persian);--teal-mid:var(--persian-mid);
+}}
+
+.sticky-hdr{
+  position:sticky;top:0;z-index:100;
+  background:var(--teal);
+  box-shadow:0 2px 12px rgba(0,0,0,0.18);
+  width:100%;
+}
+
+/* Top teal band: brand + clock */
+.sticky-hdr-top{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 20px;
+  height:36px;
+  gap:12px;
+}
+
+/* Brand */
+.sticky-brand{
+  display:flex;align-items:baseline;gap:7px;flex-shrink:0;
+}
+.sticky-title{
+  font-size:13.5px;font-weight:800;color:#fff;
+  letter-spacing:-.02em;white-space:nowrap;
+}
+.sticky-sub{
+  font-size:9px;color:rgba(255,255,255,0.65);
+  letter-spacing:.08em;text-transform:uppercase;
+  font-weight:600;white-space:nowrap;
+}
+
+/* Clock (right of top band) */
+.sticky-dt{
+  display:flex;align-items:center;gap:10px;flex-shrink:0;
+}
+.sticky-dt-d{font-size:11px;font-weight:600;color:rgba(255,255,255,0.90);}
+.sticky-dt-t{font-size:10.5px;color:rgba(255,255,255,0.70);font-variant-numeric:tabular-nums;}
+
+/* Bottom white band: inputs + tz toggle + actions */
+.sticky-hdr-bottom{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:0 20px;
+  height:44px;
+  background:var(--bg);
+  border-top:1px solid rgba(13,148,136,0.20);
+}
+
+/* Profile inputs group */
+.sticky-profile{
+  display:flex;align-items:center;gap:7px;flex:1;min-width:0;
+}
+.sticky-field-wrap{position:relative;display:flex;align-items:center;flex-shrink:0;}
+.sticky-pinput{
+  font-family:inherit;font-size:12px;
+  background:var(--bg2);border:1px solid var(--bd);
+  border-radius:8px;
+  padding:6px 28px 6px 11px;
+  color:var(--tx);outline:none;
+  width:128px;
+  height:32px;
+  transition:border-color .15s,box-shadow .15s;
+}
+.sticky-pinput:focus{border-color:var(--teal);box-shadow:0 0 0 3px var(--teal-mid);}
+.sticky-pinput::placeholder{color:var(--tx3);}
+.sticky-psel{
+  font-family:inherit;font-size:12px;
+  background:var(--bg2);border:1px solid var(--bd);
+  border-radius:8px;
+  padding:6px 34px 6px 11px;
+  color:var(--tx);outline:none;cursor:pointer;
+  width:155px;
+  height:32px;
+  appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 10px center;
+  transition:border-color .15s;
+}
+.sticky-psel:focus{border-color:var(--teal);box-shadow:0 0 0 3px var(--teal-mid);outline:none;}
+.sticky-clear{
+  position:absolute;right:9px;top:50%;transform:translateY(-50%);
+  background:none;border:none;cursor:pointer;
+  color:var(--tx3);font-size:10px;padding:2px;display:none;line-height:1;
+}
+.sticky-field-wrap:has(.sticky-psel) .sticky-clear{right:24px;}
+.sticky-clear:hover{color:var(--tx);}
+.sticky-clear.visible{display:block;}
+
+/* Divider between inputs and TZ */
+.sticky-divider{
+  width:1px;height:22px;background:var(--bd);flex-shrink:0;
+}
+
+/* TZ toggle */
+.sticky-tools{display:flex;align-items:center;gap:5px;flex-shrink:0;}
+.tz-toggle{
+  display:flex;gap:2px;
+  background:var(--bg3);
+  border:1px solid var(--bd);
+  border-radius:8px;padding:2px;height:32px;align-items:center;
+}
+.tz-btn{
+  font-family:inherit;font-size:10.5px;font-weight:600;
+  border:none;background:none;border-radius:6px;
+  padding:3px 8px;cursor:pointer;
+  color:var(--tx2);
+  transition:background .12s,color .12s;
+  height:26px;white-space:nowrap;
+}
+.tz-btn.active{
+  background:var(--bg);color:var(--teal);
+  box-shadow:0 1px 3px rgba(0,0,0,0.10);
+}
+.tz-btn:hover:not(.active){color:var(--tx);}
+
+/* Action buttons */
+.sticky-actions{display:flex;align-items:center;gap:5px;flex-shrink:0;margin-left:auto;}
+.abtn{
+  font-size:11.5px;font-weight:500;color:var(--tx);cursor:pointer;
+  border:1px solid var(--bd);background:var(--bg2);
+  border-radius:8px;padding:0 13px;
+  font-family:inherit;
+  transition:background .12s,color .12s,border-color .12s;
+  white-space:nowrap;appearance:none;-webkit-appearance:none;
+  line-height:1.4;height:32px;display:flex;align-items:center;gap:5px;
+}
+.abtn:disabled{opacity:.30;cursor:not-allowed;}
+.abtn:hover:not(:disabled){background:var(--bg3);border-color:var(--tx3);}
+.abtn .abtn-icon{font-size:12px;line-height:1;}
+
+/* ── RESPONSIVE ─────────────────────────────────── */
+/* 900px: compress inputs slightly */
+@media(max-width:900px){
+  .sticky-pinput{width:110px;}
+  .sticky-psel{width:135px;}
+}
+
+/* ≤700px: two tight rows
+   Row 1: name input + country select (side by side, full width)
+   Row 2: TZ toggle (left, flex) + action buttons (right)        */
+@media(max-width:700px){
+  .sticky-hdr-top{padding:0 14px;height:34px;}
+  .sticky-hdr-bottom{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:auto auto;
+    gap:6px;
+    padding:8px 12px 9px;
+    height:auto;
+  }
+  .sticky-title{font-size:13px;}
+  .sticky-sub{display:none;}
+  .sticky-dt-d{font-size:10.5px;}
+  .sticky-dt-t{font-size:9.5px;}
+
+  /* Row 1: inputs span full width side by side */
+  .sticky-profile{
+    grid-column:1 / -1;
+    grid-row:1;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:6px;
+    width:100%;flex:none;
+  }
+  .sticky-field-wrap{width:100%;}
+  .sticky-pinput{width:100%;flex:1;font-size:12px;}
+  .sticky-psel{width:100%;flex:1;font-size:12px;}
+
+  /* Hide dividers */
+  .sticky-divider{display:none;}
+
+  /* Row 2 left: TZ toggle */
+  .sticky-tools{
+    grid-column:1;
+    grid-row:2;
+    width:100%;
+  }
+  .tz-toggle{width:100%;justify-content:stretch;}
+  .tz-btn{flex:1;text-align:center;padding:3px 4px;font-size:10px;}
+
+  /* Row 2 right: action buttons */
+  .sticky-actions{
+    grid-column:2;
+    grid-row:2;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:5px;
+    margin-left:0;
+    width:100%;
+  }
+  .abtn{
+    justify-content:center;
+    font-size:10.5px;
+    padding:0 6px;
+    height:30px;
+  }
+  /* Icon only on small buttons to save space */
+  .abtn .abtn-label{display:none;}
+}
+@media(max-width:400px){
+  .sticky-pinput,.sticky-psel{font-size:11.5px;}
+  .tz-btn{font-size:9.5px;}
+}
+
+
+.hdr{text-align:center;margin-bottom:16px;}
+.hdr h1{font-size:22px;font-weight:800;color:var(--persian);display:flex;align-items:center;justify-content:center;gap:9px;letter-spacing:-.02em;}
+.hdr p{font-size:12px;color:var(--tx2);margin-top:4px;}
+.tabs{display:flex;gap:2px;margin-bottom:16px;border-bottom:0.5px solid var(--bd);align-items:center;}
+.tab{font-size:13px;font-weight:500;padding:6px 16px;border:none;background:none;color:var(--tx2);cursor:pointer;border-bottom:2.5px solid transparent;margin-bottom:-1px;font-family:inherit;transition:color .15s,border-color .15s;}
+.tab.active{color:var(--tx);border-bottom-color:var(--blua);font-weight:700;color:var(--tx);}
+.tab:hover:not(.active){color:var(--tx);}
+.tacts{margin-left:auto;display:flex;gap:7px;align-items:center;}
+.prog-row{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
+.prog{flex:1;background:var(--bg4);border-radius:6px;height:5px;overflow:hidden;}
+.progf{height:100%;border-radius:6px;background:linear-gradient(90deg,var(--persian),var(--blua));transition:width .4s cubic-bezier(.4,0,.2,1);}
+.prog-lbl{font-size:11px;color:var(--tx2);white-space:nowrap;font-variant-numeric:tabular-nums;min-width:110px;text-align:right;}
+.scroll-hint{font-size:11px;color:var(--tx3);margin-bottom:10px;display:flex;align-items:center;gap:6px;}
+.scroll-hint::before,.scroll-hint::after{content:'';display:block;flex:1;height:0.5px;background:var(--bd);}
+.brk-out{overflow-x:auto;padding-bottom:24px;-webkit-overflow-scrolling:touch;}
+.brk{display:flex;align-items:stretch;min-width:max-content;}
+.side{display:flex;flex:1;align-items:stretch;}
+.rwrap{display:flex;flex-direction:column;flex:1;}
+.rwrap[data-round="0"]{background:var(--r0);}
+.rwrap[data-round="1"]{background:var(--r1);}
+.rwrap[data-round="2"]{background:var(--r2);}
+.rwrap[data-round="3"]{background:var(--r3);}
+.rlbl{font-size:9.5px;font-weight:800;color:var(--tx2);text-align:center;letter-spacing:.11em;text-transform:uppercase;padding:12px 4px 10px;font-variant:small-caps;}
+.rcol{display:flex;flex-direction:column;flex:1;position:relative;}
+.mwrap{display:flex;align-items:center;justify-content:center;flex:1;padding:4px 5px;position:relative;}
+.connector-svg{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;overflow:visible;}
+.mc{background:var(--bg);border-radius:var(--rm);overflow:hidden;width:100%;max-width:136px;box-shadow:var(--sc);transition:box-shadow .18s,transform .18s;position:relative;z-index:1;}
+.rwrap[data-round="1"] .mc{max-width:142px;}
+.rwrap[data-round="2"] .mc{max-width:148px;}
+.rwrap[data-round="3"] .mc{max-width:154px;}
+.mc:hover{box-shadow:var(--sch);transform:translateY(-1.5px);transition:box-shadow .15s,transform .15s;}
+.mc.kb-focus{box-shadow:0 0 0 2px var(--blua),var(--sch);transform:translateY(-1px);}
+.rwrap[data-round="0"] .mc{border-left:2.5px solid rgba(28,57,187,0.10);}
+.rwrap[data-round="1"] .mc{border-left:2.5px solid rgba(28,57,187,0.30);}
+.rwrap[data-round="2"] .mc{border-left:2.5px solid rgba(28,57,187,0.55);}
+.rwrap[data-round="3"] .mc{border-left:2.5px solid rgba(28,57,187,0.85);}
+.rwrap[data-round="1"] .tr{min-height:30px;padding:6px 8px;}
+.rwrap[data-round="2"] .tr{min-height:32px;padding:7px 8px;font-size:11px;}
+.rwrap[data-round="3"] .tr{min-height:34px;padding:8px 8px;font-size:11px;}
+.cbox{border-left:2.5px solid rgba(28,57,187,0.90)!important;}
+.tbox{border-radius:var(--rm);overflow:hidden;width:100%;background:var(--bg);box-shadow:var(--sc);border:0.5px solid var(--bd);border-left:2.5px solid rgba(28,57,187,0.90)!important;}
+.mmeta{padding:4px 8px;border-bottom:0.5px solid var(--bd);background:var(--bg2);}
+.mmeta-dt{font-size:9px;font-weight:700;color:var(--blua);white-space:nowrap;letter-spacing:.01em;}
+.mmeta-venue{font-size:8px;color:var(--tx3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:1px;cursor:default;}
+.tr{display:flex;align-items:center;gap:5px;padding:5px 8px;font-size:10.5px;color:var(--tx2);cursor:pointer;border-bottom:0.5px solid var(--bd);min-height:28px;transition:background .12s,color .12s;}.tr:last-child{border-bottom:none;}
+.tr:hover{background:var(--bg2);color:var(--tx);}
+.tr.winner{background:var(--blu);color:var(--blut);font-weight:800;box-shadow:var(--sw);position:relative;z-index:2;}
+.tr.tbd{cursor:default;}
+.tr.tbd:hover{background:transparent;color:var(--tx2);}
+.tf{font-size:13px;width:16px;text-align:center;line-height:1;flex-shrink:0;}
+.tn{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:10.5px;letter-spacing:-.01em;}
+.tg{font-size:9.5px;color:var(--tx3);min-width:24px;text-align:right;flex-shrink:0;}
+.tr.winner .tg{color:var(--blua);}
+.ccol{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:160px;padding:28px 6px;gap:10px;background:var(--bg3);position:relative;}
+.ccol::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:48px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);border-radius:1px;}
+
+.clbl{font-size:9px;font-weight:700;color:var(--tx2);text-align:center;letter-spacing:.09em;text-transform:uppercase;}
+.cbox{border-radius:var(--rm);overflow:hidden;width:100%;background:var(--bg);box-shadow:var(--sc);border:0.5px solid var(--bd);border-left:2.5px solid rgba(43,127,212,0.90)!important;border-top:2px solid var(--gold);}
+
+.fpr{display:flex;align-items:center;gap:5px;padding:5px 8px;font-size:10.5px;color:var(--tx2);cursor:pointer;border-bottom:0.5px solid var(--bd);min-height:28px;transition:background .12s,color .12s;}
+.fpr:hover{background:var(--bg2);color:var(--tx);}
+.fpr:last-of-type{border-bottom:none;}
+.fpr.tbd{cursor:default;border-bottom:0.5px solid var(--bd);}
+.fpr.tbd:hover{background:transparent;}
+.fpr.tbd:last-of-type{border-bottom:none;}
+.tbox{border:0.5px solid var(--bd);border-radius:var(--rm);overflow:hidden;width:100%;background:var(--bg);box-shadow:var(--sc);}
+.tbox-lbl{font-size:8.5px;color:var(--tx2);letter-spacing:.06em;text-transform:uppercase;margin-bottom:5px;font-weight:700;}
+.tbox-tm{font-size:11px;color:var(--tx);padding:2px 0;}
+.tbox-meta{font-size:8px;color:var(--tx3);margin-top:6px;line-height:1.6;border-top:0.5px solid var(--bd);padding-top:5px;}
+.ggrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;}
+.gcard{background:var(--bg);border-radius:var(--rl);box-shadow:var(--sc);padding:12px 14px;}
+.gtitle{font-size:11px;font-weight:700;color:var(--tx2);margin-bottom:8px;letter-spacing:.05em;text-transform:uppercase;}
+.gteam{font-size:12.5px;color:var(--tx);padding:4px 0;display:flex;align-items:center;gap:7px;border-bottom:0.5px solid var(--bd);position:relative;}
+.gteam:last-child{border-bottom:none;}
+.gteam.in-picks{color:var(--persian);font-weight:700;background:var(--persian-dim);margin:0 -14px;padding-left:14px;padding-right:14px;}
+.gteam.in-picks::after{content:attr(data-stage);font-size:9px;font-weight:700;margin-left:auto;color:#fff;background:var(--persian);border-radius:4px;padding:1px 6px;white-space:nowrap;}
+
+.ct-wrap{max-width:560px;margin:0 auto;padding:2rem 1rem;}
+.journey{background:var(--bg);border-radius:var(--rl);box-shadow:var(--sc);overflow:hidden;margin-bottom:20px;}
+.journey-hdr{padding:12px 16px;border-bottom:0.5px solid var(--bd);display:flex;align-items:center;gap:8px;border-left:3px solid var(--persian);}
+.journey-hdr-title{font-size:13px;font-weight:700;color:var(--tx);}
+.journey-hdr-sub{font-size:11px;color:var(--tx2);margin-left:auto;}
+.journey-round{display:flex;align-items:stretch;border-bottom:0.5px solid var(--bd);}
+.journey-round:last-child{border-bottom:none;}
+.journey-round-lbl{width:90px;flex-shrink:0;padding:10px 12px;font-size:9.5px;font-weight:700;color:var(--tx2);letter-spacing:.05em;text-transform:uppercase;background:var(--bg2);display:flex;align-items:center;border-right:0.5px solid var(--bd);}
+.journey-teams{display:flex;flex-wrap:wrap;gap:6px;padding:10px 14px;align-items:center;flex:1;}
+.journey-team{display:flex;align-items:center;gap:5px;font-size:12px;color:var(--tx);background:var(--bg2);border-radius:6px;padding:4px 9px;border:0.5px solid var(--bd);}
+.journey-team.is-champ{background:var(--goldbg);border-color:var(--gold);color:var(--goldt);font-weight:700;}
+.journey-empty{font-size:11px;color:var(--tx3);padding:10px 14px;font-style:italic;}
+.ct-hero{text-align:center;padding:2rem 1rem 1rem;}
+.ct-hero .bflag{font-size:64px;margin-bottom:8px;}
+.ct-hero .ctitle{font-size:26px;font-weight:700;color:var(--tx);margin-bottom:4px;letter-spacing:-.02em;}
+.ct-hero 
+.ct-hero .cby{font-size:13px;color:var(--tx2);margin-bottom:20px;}
+.ct-pending{text-align:center;padding:3rem 1rem;max-width:100%;overflow:hidden;}
+.ct-pending p{font-size:13px;color:var(--tx2);line-height:1.6;word-wrap:break-word;}
+.movl{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.52);z-index:200;align-items:center;justify-content:center;backdrop-filter:blur(2px);}
+.movl.open{display:flex;}
+.modal{background:var(--bg);border-radius:var(--rl);box-shadow:0 20px 60px rgba(0,0,0,0.3);padding:24px;max-width:420px;width:90%;position:relative;}
+.modal h3{font-size:16px;font-weight:700;margin-bottom:3px;}
+.modal p{font-size:12.5px;color:var(--tx2);margin-bottom:14px;}
+.mclose{position:absolute;top:14px;right:16px;background:none;border:none;font-size:18px;cursor:pointer;color:var(--tx2);line-height:1;}
+.mclose:hover{color:var(--tx);}
+.surl-box{display:flex;gap:8px;margin-bottom:14px;}
+.surl-in{flex:1;font-family:inherit;font-size:11px;background:var(--bg2);border:0.5px solid var(--bd);border-radius:var(--rm);padding:8px 10px;color:var(--tx2);outline:none;}
+.cpbtn{font-family:inherit;font-size:12px;background:var(--blua);color:#fff;border:none;border-radius:var(--rm);padding:8px 14px;cursor:pointer;font-weight:600;}
+.cpbtn:hover{background:var(--blua2);}
+.sopts{display:flex;gap:7px;flex-wrap:wrap;}
+.sopt{flex:1;min-width:70px;font-family:inherit;font-size:11.5px;border:0.5px solid var(--bds);border-radius:var(--rm);padding:10px 6px;cursor:pointer;background:var(--bg2);color:var(--tx);text-align:center;font-weight:500;transition:background .12s,transform .1s;}
+.sopt:hover{background:var(--bg3);transform:translateY(-1px);}
+.ssum{background:var(--bg2);border-radius:var(--rm);padding:11px 14px;margin-bottom:14px;font-size:12px;color:var(--tx2);line-height:1.7;border-left:3px solid var(--blua);}
+.ssum strong{color:var(--tx);font-weight:700;}
+.print-movl{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.55);z-index:200;align-items:center;justify-content:center;backdrop-filter:blur(2px);}
+.print-movl.open{display:flex;}
+.print-card{background:var(--bg);border-radius:var(--rl);box-shadow:0 20px 60px rgba(0,0,0,0.3);padding:24px;max-width:360px;width:90%;position:relative;text-align:center;}
+.print-card h3{font-size:15px;font-weight:700;margin-bottom:8px;}
+.print-card p{font-size:12px;color:var(--tx2);margin-bottom:18px;line-height:1.6;}
+.print-opts{display:flex;flex-direction:column;gap:9px;}
+.print-opt{font-family:inherit;font-size:13px;font-weight:600;border:0.5px solid var(--bds);background:var(--bg2);color:var(--tx);border-radius:var(--rm);padding:11px;cursor:pointer;transition:background .12s;}
+.print-opt:hover{background:var(--bg3);}
+.print-opt.primary{background:var(--bg2);color:var(--tx);border-color:var(--bds);}
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(70px);background:var(--tx);color:var(--bg);border-radius:50px;padding:10px 22px;font-size:13px;font-weight:600;z-index:300;transition:transform .3s cubic-bezier(.4,0,.2,1),opacity .3s;opacity:0;pointer-events:none;box-shadow:0 4px 20px rgba(0,0,0,0.25);}
+.toast.show{transform:translateX(-50%) translateY(0);opacity:1;}
+.site-footer{text-align:center;padding:32px 16px 32px;margin-top:40px;border-top:0.5px solid var(--bd);background:#ffd700;}
+.site-footer p{font-size:12px;color:#111;}
+.site-footer a{color:#111;text-decoration:none;font-weight:600;}
+.site-footer a:hover{text-decoration:underline;}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;}
+.quiz-wrap{max-width:680px;margin:0 auto;padding:1.5rem 0 3rem;}
+.quiz-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:10px;}
+.quiz-header-left h2{font-size:20px;font-weight:700;color:var(--tx);letter-spacing:-.01em;}
+.quiz-header-left p{font-size:12px;color:var(--tx2);margin-top:3px;}
+.quiz-score-card{background:var(--bg);border-radius:var(--rl);box-shadow:var(--sc);padding:10px 18px;display:flex;gap:20px;align-items:center;}
+.quiz-score-item{text-align:center;}
+.quiz-score-num{font-size:22px;font-weight:700;color:var(--tx);font-variant-numeric:tabular-nums;}
+.quiz-score-num.correct{color:#1a8a4a;}
+.quiz-score-num.wrong{color:#c0392b;}
+.quiz-score-lbl{font-size:10px;color:var(--tx3);text-transform:uppercase;letter-spacing:.05em;}
+.quiz-score-div{width:0.5px;height:32px;background:var(--bd);}
+.quiz-progress-row{display:flex;align-items:center;gap:10px;margin-bottom:18px;}
+.quiz-prog-bar{flex:1;background:var(--bg4);border-radius:4px;height:4px;}
+.quiz-prog-fill{height:100%;border-radius:4px;background:linear-gradient(90deg,var(--blua),#5bb8f5);transition:width .4s;}
+.quiz-prog-lbl{font-size:11px;color:var(--tx2);white-space:nowrap;font-variant-numeric:tabular-nums;}
+.quiz-card{background:var(--bg);border-radius:var(--rl);box-shadow:var(--sc);overflow:hidden;margin-bottom:16px;}
+.quiz-card-top{padding:18px 20px 14px;}
+.quiz-q{font-size:15px;font-weight:600;color:var(--tx);line-height:1.5;}
+.quiz-options{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:0 20px 20px;}
+.quiz-opt{font-family:inherit;font-size:13px;font-weight:500;background:var(--bg2);border:0.5px solid var(--bds);border-radius:var(--rm);padding:11px 14px;cursor:pointer;color:var(--tx);text-align:left;transition:background .12s,border-color .12s,transform .1s;line-height:1.4;}
+.quiz-opt:hover:not(:disabled){background:var(--bg3);border-color:var(--blua);transform:translateY(-1px);}
+.quiz-opt:disabled{cursor:default;transform:none;}
+.quiz-opt.correct{background:#e6f9ee;border-color:#1a8a4a;color:#0f5c30;}
+.quiz-opt.wrong{background:#fdecea;border-color:#c0392b;color:#7b1a12;}
+.quiz-opt.reveal{background:var(--bg3);border-color:var(--bds);opacity:.6;}
+@media(prefers-color-scheme:dark){
+ .quiz-opt.correct{background:#0d2e1a;border-color:#2ecc71;color:#a8f0c0;}
+ .quiz-opt.wrong{background:#2e0d0d;border-color:#e74c3c;color:#f5a0a0;}
+ .quiz-opt.reveal{opacity:.5;}
+}
+.quiz-feedback{padding:14px 20px 18px;border-top:0.5px solid var(--bd);display:flex;align-items:center;gap:12px;animation:fadeIn .2s;}
+
+.quiz-feedback-text{font-size:13px;color:var(--tx2);flex:1;line-height:1.5;}
+.quiz-feedback-text strong{color:var(--tx);}
+.quiz-next-btn{font-family:inherit;font-size:12px;font-weight:600;background:var(--blua);color:#fff;border:none;border-radius:var(--rm);padding:10px 20px;cursor:pointer;white-space:nowrap;flex-shrink:0;}
+.quiz-next-btn:hover{background:var(--blua2);}
+.quiz-controls{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;}
+.quiz-ctrl-btn{font-family:inherit;font-size:11.5px;font-weight:500;border:0.5px solid var(--bds);background:var(--bg2);color:var(--tx);border-radius:var(--rm);padding:7px 14px;cursor:pointer;transition:background .12s;}
+.quiz-ctrl-btn:hover{background:var(--bg3);}
+.quiz-finished{background:var(--bg);border-radius:var(--rl);box-shadow:var(--sc);padding:32px 24px;text-align:center;}
+.quiz-finished-icon{font-size:56px;margin-bottom:12px;}
+.quiz-finished h3{font-size:22px;font-weight:700;color:var(--tx);margin-bottom:6px;}
+.quiz-finished p{font-size:14px;color:var(--tx2);margin-bottom:20px;}
+.quiz-grade{font-size:40px;font-weight:900;margin-bottom:4px;}
+.quiz-grade.s{color:#1a8a4a;}
+.quiz-grade.a{color:#2b7fd4;}
+.quiz-grade.b{color:#b8911e;}
+.quiz-grade.c-grade{color:#e07b20;}
+.quiz-grade.d-grade{color:#c0392b;}
+.quiz-restart-btn{font-family:inherit;font-size:13px;font-weight:600;background:var(--blua);color:#fff;border:none;border-radius:var(--rm);padding:11px 24px;cursor:pointer;margin-top:4px;}
+.quiz-restart-btn:hover{background:var(--blua2);}
+@keyframes fadeIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+@keyframes popIn{0%{transform:scale(.92)}60%{transform:scale(1.04)}100%{transform:scale(1)}}
+.pop{animation:popIn .25s ease;}
+.mobile-bar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:150;background:var(--bg);border-top:0.5px solid var(--bd);padding:10px 16px;padding-bottom:calc(10px + env(safe-area-inset-bottom));gap:8px;box-shadow:0 -4px 20px rgba(0,0,0,0.10);}
+.mobile-bar-btn{flex:1;font-family:inherit;font-size:12px;font-weight:600;border:0.5px solid var(--bds);background:var(--bg2);color:var(--tx);border-radius:var(--rm);padding:11px 8px;cursor:pointer;transition:background .12s;}
+.mobile-bar-btn.primary{background:var(--blua);color:#fff;border-color:var(--blua);}
+.back-top{display:none;position:fixed;bottom:24px;right:16px;width:38px;height:38px;border-radius:50%;background:var(--bg);border:0.5px solid var(--bds);color:var(--tx2);font-size:16px;font-weight:700;cursor:pointer;box-shadow:var(--sc);z-index:140;align-items:center;justify-content:center;}
+.back-top.visible{display:flex;}
+
+/* ═══════════════════════════════════════════
+   SPLIT VIEW
+   ═══════════════════════════════════════════ */
+
+/* Toggle button — sits in .tacts */
+.view-toggle{
+  display:flex;gap:2px;
+  background:var(--bg3);
+  border:1px solid var(--bd);
+  border-radius:8px;padding:2px;
+  align-items:center;
+}
+.vtbtn{
+  font-family:inherit;font-size:10.5px;font-weight:600;
+  border:none;background:none;border-radius:6px;
+  padding:4px 10px;cursor:pointer;
+  color:var(--tx2);height:26px;
+  transition:background .12s,color .12s;white-space:nowrap;
+}
+.vtbtn.active{background:var(--bg);color:var(--teal);box-shadow:0 1px 3px rgba(0,0,0,.10);}
+.vtbtn:hover:not(.active){color:var(--tx);}
+
+/* Hide toggle on mobile (accordion handles it) */
+@media(max-width:700px){.view-toggle{display:none;}}
+
+/* ── SPLIT layout ──────────────────────────────── */
+/* brk-out gets a sibling wrapper when split is on */
+#brk-split-wrap{display:none;}
+#brk-split-wrap.active{
+  display:grid;
+  grid-template-columns:1fr auto 1fr;
+  gap:10px;
+  align-items:start;
+}
+
+/* Each half-bracket panel */
+.brk-half{
+  overflow-x:auto;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+  /* Max height = viewport minus header (80px) minus tabs (~36px)
+     minus progress + banner (~70px) minus page padding (28px) */
+  max-height:calc(100vh - 214px);
+  border-radius:var(--rl);
+  background:var(--bg3);
+  padding-bottom:40px;
+}
+/* Each half contains one .brk-half-inner flex row */
+.brk-half-inner{
+  display:flex;
+  align-items:stretch;
+  min-width:max-content;
+}
+/* The final centre column sits between the two halves */
+#brk-split-center{
+  /* vertically centred in its grid row */
+  align-self:center;
+}
+/* In split mode hide the original brk-out */
+#brk-out.split-hidden{display:none;}
+
+/* Subtle panel labels */
+.brk-half-lbl{
+  font-size:9px;font-weight:700;letter-spacing:.10em;text-transform:uppercase;
+  color:var(--tx3);padding:7px 10px 4px;
+}
+
+
+/* ── Compare banner (shared URL view) ── */
+.compare-banner{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:10px;
+  background:var(--persian-lt);
+  border:1px solid var(--persian-mid);
+  border-radius:var(--rm);
+  padding:10px 14px;
+  margin-bottom:12px;
+  font-size:12.5px;
+  color:var(--tx);
+}
+.compare-banner-txt{flex:1;line-height:1.5;}
+.compare-banner-btn{
+  flex-shrink:0;
+  background:none;border:none;cursor:pointer;
+  color:var(--tx3);font-size:16px;line-height:1;
+  padding:2px 4px;border-radius:4px;
+  transition:color .12s;
+}
+.compare-banner-btn:hover{color:var(--tx);}
+@media(prefers-color-scheme:dark){
+  .compare-banner{background:var(--persian-lt);border-color:var(--persian-mid);}
+}
+
+/* ── Searchable country dropdown ──────────────────── */
+.sticky-csearch{width:155px;padding-right:28px;}
+@media(max-width:700px){.sticky-csearch{width:100%;}}
+.sticky-cdrop{
+  display:none;position:absolute;top:calc(100% + 4px);left:0;
+  min-width:220px;max-height:220px;overflow-y:auto;
+  background:var(--bg);border:1px solid var(--bd);
+  border-radius:var(--rm);box-shadow:var(--sch);z-index:500;
+  overscroll-behavior:contain;-webkit-overflow-scrolling:touch;
+}
+.sticky-cdrop.open{display:block;}
+.cdrop-item{
+  display:flex;align-items:center;gap:8px;padding:8px 12px;
+  font-size:12.5px;color:var(--tx);cursor:pointer;
+  transition:background .1s;white-space:nowrap;
+}
+.cdrop-item:hover,.cdrop-item.highlighted{background:var(--bg2);}
+.cdrop-item.selected{background:var(--persian-lt);color:var(--persian);font-weight:600;}
+.cdrop-empty{padding:10px 12px;font-size:12px;color:var(--tx3);font-style:italic;}
+
+@media print{
+ .sticky-hdr,.tabs,.tacts,.setup-card,.scroll-hint,.prog-row,.site-footer,.movl,.print-movl,.toast,.sticky-clear{display:none!important;}
+ body{background:#fff;}
+ .page{padding:0 20px 60px;}
+ .brk-out{overflow:visible;}
+ .brk{min-width:0;}
+}
+
+/* Confetti */
+.confetti-canvas{position:fixed;inset:0;pointer-events:none;z-index:9999;}
+
+/* ═══════════════════════════════════════════
+   RESPONSIVE LAYOUT — all breakpoints
+   ═══════════════════════════════════════════ */
+
+/* ── LARGE DESKTOP (>1380px) ── */
+@media(min-width:1381px){
+  .brk{min-width:1100px;}
+  .mc{max-width:148px!important;}
+  .rwrap[data-round="2"] .mc{max-width:158px!important;}
+  .rwrap[data-round="3"] .mc{max-width:168px!important;}
+  .ccol{min-width:170px;}
+}
+
+/* ── TABLET LANDSCAPE (901–1100px) ── */
+@media(max-width:1100px) and (min-width:901px){
+  .brk{min-width:860px;}
+  .mc{max-width:120px!important;}
+  .rwrap[data-round="1"] .mc{max-width:126px!important;}
+  .rwrap[data-round="2"] .mc{max-width:132px!important;}
+  .rwrap[data-round="3"] .mc{max-width:138px!important;}
+  .tn{font-size:9.5px;}
+  .mmeta-dt{font-size:8.5px;}
+  .mmeta-venue{font-size:7.5px;}
+  .rwrap[data-round="1"] .tr,.rwrap[data-round="2"] .tr,  .ccol{min-width:130px;}
+  /* sticky-dt now always visible */
+  
+  
+}
+
+/* ── TABLET PORTRAIT (701–900px) ── */
+@media(max-width:900px) and (min-width:701px){
+  .brk{min-width:740px;}
+  .mc{max-width:108px!important;}
+  .rwrap[data-round="1"] .mc{max-width:114px!important;}
+  .rwrap[data-round="2"] .mc{max-width:120px!important;}
+  .rwrap[data-round="3"] .mc{max-width:126px!important;}
+  .tn{font-size:9px;letter-spacing:0;}
+  .tf{font-size:11px;}
+  .mmeta-dt{font-size:8px;}
+  .mmeta-venue{font-size:7px;}
+  .tg{display:none;}
+  .rwrap[data-round="1"] .tr,.rwrap[data-round="2"] .tr,  .ccol{min-width:116px;}
+  .clbl{font-size:8px;}
+  .sticky-dt{display:none;}
+  
+  
+  
+  
+  /* Hide tz toggle label, keep buttons */
+  .tz-btn{padding:3px 6px;font-size:9px;}
+}
+
+@media(max-width:700px){
+  /* sticky header mobile handled in component CSS */
+  .page{padding:10px 14px 40px;}
+  .hdr{margin-bottom:12px;}
+  .hdr h1{font-size:16px;gap:7px;flex-wrap:wrap;justify-content:center;}
+  .tabs{gap:0;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;flex-wrap:nowrap;padding-bottom:0;}
+  .tabs::-webkit-scrollbar{display:none;}
+  .tab{font-size:12px;padding:7px 14px;white-space:nowrap;flex-shrink:0;}
+  .prog-row{margin-bottom:8px;}
+  .prog-lbl{font-size:10px;min-width:70px;}
+  .brk-out{overflow-x:visible;padding-bottom:16px;}
+  .brk{display:block;min-width:0;}
+  .side{display:block;}
+  .rwrap{display:block;margin-bottom:6px;border-radius:var(--rl);overflow:hidden;background:var(--bg)!important;box-shadow:var(--sc);}
+  .rlbl{display:flex;align-items:center;justify-content:space-between;width:100%;padding:12px 16px;font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;background:var(--bg2)!important;border-bottom:0.5px solid var(--bd);cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent;}
+  .rlbl::after{content:"›";font-size:18px;color:var(--tx3);transition:transform .22s cubic-bezier(.4,0,.2,1);font-weight:300;line-height:1;}
+  .rlbl.open::after{transform:rotate(90deg);color:var(--blua);}
+  .rlbl.open{border-bottom-color:var(--blua);}
+  .rcol{display:none;flex-direction:column;padding:6px 0;}
+  .rcol.open{display:flex;}
+  .mwrap{width:100%;padding:4px 10px;flex:none;}
+  .mc{max-width:100%!important;border-radius:var(--rm);border-left-width:3px!important;}
+  .mmeta{padding:5px 10px;}
+  .mmeta-dt{font-size:9px;}
+  .mmeta-venue{font-size:8px;}
+  .tr{padding:8px 10px;min-height:36px!important;font-size:11.5px!important;}
+  .tf{font-size:15px;width:20px;}
+  .tn{font-size:11px!important;letter-spacing:0;}
+  .tg{font-size:10px;min-width:28px;}
+  .connector-svg{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;overflow:visible;}
+  .ccol{display:block;min-width:0;padding:0;gap:0;background:var(--bg)!important;margin-bottom:6px;border-radius:var(--rl);overflow:hidden;box-shadow:var(--sc);}
+  .ccol::before{display:none;}
+  .clbl{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;background:var(--bg2);border-bottom:0.5px solid var(--bd);}
+  .ccol>div:not(.cbox):not(.tbox):not(.clbl){display:none;}
+  .cbox{border-radius:0;border:none;border-top:2px solid var(--gold);box-shadow:none;margin:10px;}
+  .tbox{border-radius:var(--rm);margin:0 10px 10px;border-left:3px solid rgba(43,127,212,0.9)!important;}
+  .fpr{margin:0;padding:8px 12px;font-size:11.5px;}
+  .ggrid{grid-template-columns:repeat(2,1fr);gap:8px;}
+  .gcard{padding:10px 12px;border-radius:var(--rm);}
+  .gtitle{font-size:10px;margin-bottom:6px;}
+  .gteam{font-size:12px;padding:3px 0;gap:6px;}
+  .gteam.in-picks{margin:0 -12px;padding-left:12px;padding-right:12px;}
+  .ct-wrap{padding:1rem 0.5rem 2rem;}
+  .journey-round{flex-direction:column;}
+  .journey-round-lbl{width:100%;border-right:none;border-bottom:0.5px solid var(--bd);padding:7px 14px;font-size:9px;}
+  .journey-teams{padding:8px 12px;gap:5px;}
+  .journey-team{font-size:11.5px;padding:4px 8px;}
+  .ct-hero .bflag{font-size:52px;}
+  .ct-hero .ctitle{font-size:22px;}
+  .modal,.print-card{width:calc(100% - 24px);max-width:none;padding:20px;border-radius:var(--rl);max-height:90vh;overflow-y:auto;}
+  .sopts{display:grid;grid-template-columns:1fr 1fr;}
+  .quiz-wrap{padding:0.75rem 0 2rem;}
+  .quiz-header{flex-direction:column;align-items:flex-start;gap:8px;}
+  .quiz-score-card{width:100%;justify-content:space-between;padding:8px 14px;}
+  .quiz-options{grid-template-columns:1fr;gap:8px;padding:0 14px 18px;}
+  .quiz-opt{padding:13px 16px;font-size:14px;border-radius:var(--rm);}
+  .quiz-card-top{padding:16px 14px 12px;}
+  .quiz-q{font-size:14.5px;line-height:1.45;}
+  .quiz-controls{gap:5px;flex-wrap:wrap;}
+  .quiz-ctrl-btn{font-size:11px;padding:6px 10px;}
+  .mobile-bar{display:flex!important;}
+  body{padding-bottom:80px;}
+  .back-top{bottom:100px;}
+  .sopt{min-width:calc(50% - 4px);}
+}
+@media(max-width:400px){
+  .ggrid{grid-template-columns:1fr;}
+  .tab{font-size:11px;padding:6px 10px;}
+  .hdr h1{font-size:14px;}
+  .mc{border-left-width:2px!important;}
+  .tr{padding:7px 8px;}
+}</style>
+</head>
+<body>
+
+<!-- STICKY HEADER -->
+<div class="sticky-hdr">
+  <!-- Top teal band: brand + clock -->
+  <div class="sticky-hdr-top">
+    <div class="sticky-brand">
+      <span class="sticky-title">FIFA World Cup 2026™</span>
+      <span class="sticky-sub">My Prediction</span>
+    </div>
+    <div class="sticky-dt">
+      <div class="sticky-dt-d" id="dtd"></div>
+      <div class="sticky-dt-t" id="dtt"></div>
+    </div>
+  </div>
+
+  <!-- Bottom white band: inputs · tz toggle · actions -->
+  <div class="sticky-hdr-bottom">
+    <!-- Profile inputs -->
+    <div class="sticky-profile">
+      <div class="sticky-field-wrap">
+        <input class="sticky-pinput" id="uname" type="text" placeholder="Your name" maxlength="40" oninput="onPC()" autocomplete="new-password" autocorrect="off" autocapitalize="off" spellcheck="false" data-form-type="other">
+        <button class="sticky-clear" id="uname-clear" onclick="clearName()" title="Clear name" aria-label="Clear name">✕</button>
+      </div>
+      <div class="sticky-field-wrap" id="country-wrap">
+        <input class="sticky-pinput sticky-csearch" id="ucountry-search"
+               type="text" placeholder="Your country"
+               autocomplete="new-password" autocorrect="off" autocapitalize="off"
+               spellcheck="false" data-form-type="other"
+               oninput="filterCountries()" onfocus="openCountryDrop()"
+               aria-label="Search for your country" aria-autocomplete="list"
+               aria-expanded="false" role="combobox">
+        <button class="sticky-clear" id="ucountry-clear" onclick="clearCountry()" title="Clear country" aria-label="Clear country">✕</button>
+        <select id="ucountry" style="display:none" aria-hidden="true"></select>
+        <div class="sticky-cdrop" id="country-drop" role="listbox" aria-label="Countries"></div>
+      </div>
+    </div>
+
+    <div class="sticky-divider"></div>
+
+    <!-- Timezone toggle -->
+    <div class="sticky-tools">
+      <div class="tz-toggle" title="Match time timezone">
+        <button class="tz-btn active" id="tz-et" onclick="setTz('ET')" aria-label="Eastern Time">ET</button>
+        <button class="tz-btn" id="tz-bst" onclick="setTz('BST')" aria-label="British Summer Time">BST</button>
+        <button class="tz-btn" id="tz-cet" onclick="setTz('CET')" aria-label="Central European Time">CET</button>
+        <button class="tz-btn" id="tz-local" onclick="setTz('LOCAL')" aria-label="Your local time">Local</button>
+      </div>
+    </div>
+
+    <div class="sticky-divider"></div>
+
+    <!-- Action buttons -->
+    <div class="sticky-actions">
+      <button class="abtn" id="undo-btn" onclick="doUndo()" disabled title="Undo last pick">
+        <span class="abtn-icon">↩</span><span class="abtn-label"> Undo</span>
+      </button>
+      <button class="abtn" onclick="openPrint()" title="Export table">
+        <span class="abtn-icon">⬇</span><span class="abtn-label"> Export</span>
+      </button>
+      <button class="abtn" id="reset-btn" onclick="doReset()" title="Reset all picks">
+        <span class="abtn-icon">↺</span><span class="abtn-label"> Reset</span>
+      </button>
+      <button class="abtn" onclick="openShare()" title="Share your predictions">
+        <span class="abtn-icon">↗</span><span class="abtn-label"> Share</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="page">
+<h2 class="sr-only">FIFA World Cup 2026 knockout table predictor</h2>
+
+<!-- Tabs -->
+<div class="tabs">
+ <button class="tab active" onclick="showTab('bracket')" aria-label="Table view">Table</button>
+ <button class="tab" onclick="showTab('groups')" aria-label="Groups view">Groups</button>
+ <button class="tab" onclick="showTab('champion')" aria-label="My Champion view">My Champion</button>
+ <button class="tab" onclick="showTab('quiz')" aria-label="Halftime Quiz">Halftime Quiz</button>
+ <div class="tacts">
+  <div class="view-toggle" id="view-toggle" title="Switch bracket layout">
+    <button class="vtbtn active" id="vt-full" onclick="setBrkView('full')" aria-label="Full bracket view">Full</button>
+    <button class="vtbtn" id="vt-split" onclick="setBrkView('split')" aria-label="Split bracket view">Split</button>
+  </div>
+ </div>
+</div>
+
+<!-- Table tab -->
+<div id="tab-bracket">
+ <div class="prog-row">
+ <div class="prog"><div class="progf" id="pfill" style="width:0%"></div></div>
+ <div class="prog-lbl" id="plbl">0 / 32 picks made</div>
+ </div>
+ 
+ <div style="background:var(--bg);border-radius:var(--rm);border-left:3px solid var(--blua);padding:10px 14px;margin-bottom:12px;font-size:11.5px;color:var(--tx2);line-height:1.5;">
+    <strong style="color:var(--tx)">Predicted line-up</strong> — These are predicted Round of 32 matchups based on group favourites. Actual teams confirmed after group stage ends Jun 27.
+  </div>
+ <div class="brk-out" id="brk-out"></div>
+ <div id="brk-split-wrap">
+   <div class="brk-half" id="brk-left">
+     <div class="brk-half-lbl">Left Bracket</div>
+     <div class="brk-half-inner" id="brk-left-inner"></div>
+   </div>
+   <div id="brk-split-center" style="flex-shrink:0;align-self:center;"></div>
+   <div class="brk-half" id="brk-right">
+     <div class="brk-half-lbl">Right Bracket</div>
+     <div class="brk-half-inner" id="brk-right-inner"></div>
+   </div>
+ </div>
+</div>
+
+<!-- Groups tab -->
+<div id="tab-groups" style="display:none">
+ <div class="ggrid" id="ggrid"></div>
+</div>
+
+<!-- Champion tab -->
+<div id="tab-champion" style="display:none">
+ <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+ <div style="font-size:11px;color:var(--tx3);">Tournament starts Jun 28, 2026 · Compare your picks with real results below</div>
+ <div style="display:flex;gap:6px;">
+ <button class="abtn" id="view-predicted" onclick="setChampView('predicted')" aria-label="View my predictions" style="font-size:11px;">My Predictions</button>
+ <button class="abtn" id="view-actual" onclick="setChampView('actual')" aria-label="View real results" style="font-size:11px;">Real Results</button>
+ </div>
+ </div>
+ <div id="chtab"></div>
+ <div id="actual-tab" style="display:none">
+ <div id="real-results-content" style="max-width:560px;margin:0 auto;padding:1rem;background:var(--bg);border-radius:var(--rl);box-shadow:var(--sc);text-align:center;">
+ <div style="font-size:32px;margin-bottom:12px;"></div>
+ <div style="font-size:14px;font-weight:600;color:var(--tx);margin-bottom:6px;">Real results coming soon</div>
+ <div style="font-size:12px;color:var(--tx2);">The knockout stage begins Jun 28, 2026. Once matches are played, you'll be able to compare your predictions with what actually happened and see your score.</div>
+ </div>
+ </div>
+</div>
+
+<!-- Halftime Quiz tab -->
+<div id="tab-quiz" style="display:none">
+ <div id="quiz-root"></div>
+</div>
+</div>
+
+<!-- Share modal -->
+<div class="movl" id="smodal" onclick="closeShareOuter(event)">
+ <div class="modal">
+ <button class="mclose" onclick="closeShare()">✕</button>
+ <h3>Share your predictions</h3>
+ <div class="ssum" id="ssum"></div>
+
+ <p style="font-size:10.5px;color:var(--tx3);margin-bottom:6px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;">Post text — copy and paste into any social post</p>
+ <div style="position:relative;margin-bottom:4px;">
+  <textarea id="spost-text" readonly rows="4" style="width:100%;font-family:inherit;font-size:11.5px;background:var(--bg2);border:0.5px solid var(--bd);border-radius:var(--rm);padding:9px 10px;color:var(--tx);resize:none;outline:none;line-height:1.6;box-sizing:border-box;"></textarea>
+ </div>
+ <div style="display:flex;gap:8px;margin-bottom:18px;">
+  <button class="cpbtn" style="flex:1" onclick="copyLink('spost-text','Post text copied!')">Copy post text</button>
+ </div>
+
+ <p style="font-size:10.5px;color:var(--tx3);margin-bottom:6px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;">Share to social</p>
+ <div class="sopts" style="margin-bottom:10px;">
+  <button class="sopt" onclick="shareWA()">WhatsApp</button>
+  <button class="sopt" onclick="shareX()">X / Twitter</button>
+  <button class="sopt" onclick="shareLinkedIn()">LinkedIn</button>
+  <button class="sopt" onclick="shareInstagram()">Instagram</button>
+  <button class="sopt" onclick="shareTikTok()">TikTok</button>
+ </div>
+
+ <p style="font-size:10.5px;color:var(--tx3);margin-bottom:6px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;">Bracket link (direct link to your picks)</p>
+ <div class="surl-box" style="margin-bottom:4px;">
+  <input class="surl-in" id="surl" readonly>
+  <button class="cpbtn" onclick="copyLink('surl','Link copied!')">Copy</button>
+ </div>
+ <p id="surl-note" style="font-size:10px;color:var(--tx3);margin-bottom:0;line-height:1.5;"></p>
+ </div>
+</div>
+
+<!-- Print/Export modal -->
+<div class="print-movl" id="pmodal" onclick="closePrintOuter(event)">
+ <div class="print-card">
+ <button class="mclose" onclick="closePrint()" aria-label="Close export">✕</button>
+ <h3>Export your table</h3>
+ <p>Save a full-page PNG of your bracket — includes your name, country, and all picks.</p>
+ <p id="export-flag-note" style="font-size:10.5px;color:var(--tx3);margin-top:-8px;margin-bottom:18px;">Note: flag emoji may appear as boxes depending on your OS.</p>
+ <div class="print-opts">
+  <button class="print-opt primary" id="export-png-btn" onclick="exportImage()" aria-label="Download bracket as PNG">⬇ Save as PNG</button>
+ </div>
+ <p id="export-status" style="font-size:11px;color:var(--tx2);margin-top:14px;min-height:16px;text-align:center;"></p>
+ </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- Mobile bottom bar (visible on small screens only) -->
+<div class="mobile-bar" id="mobile-bar">
+  <button class="mobile-bar-btn" onclick="doUndo()" id="mob-undo">↩ Undo</button>
+  <button class="mobile-bar-btn" onclick="doReset()" id="mob-reset">↺ Reset</button>
+  <button class="mobile-bar-btn" onclick="openShare()">↗ Share</button>
+</div>
+
+<!-- Back to top -->
+<button class="back-top" id="back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
+
+<footer class="site-footer">
+ <p>Data source: <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026" target="_blank" rel="noopener">Official FIFA World Cup 2026 website</a></p>
+ <p style="margin-top:6px;">Created by <a href="https://shazmoghaddam.github.io/" target="_blank" rel="noopener">Shaz Moghaddam</a> · London</p>
+</footer>
+
+<script>
+const LOGO='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj4KICA8IS0tIERhcmsgYmFja2dyb3VuZCAtLT4KICA8cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgcng9IjgiIGZpbGw9IiMwYTBhMGEiLz4KICA8IS0tICIyNiIgdGV4dCBiZWhpbmQgdHJvcGh5IC0tPgogIDx0ZXh0IHg9IjYwIiB5PSI5MiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrLEltcGFjdCxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iOTAwIiBmb250LXNpemU9IjcyIiBsZXR0ZXItc3BhY2luZz0iLTQiIGZpbGw9IiMxYTFhMWEiPjI2PC90ZXh0PgogIDwhLS0gVHJvcGh5IHNpbGhvdWV0dGUgaW4gZ29sZCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2MCw1NikiIGZpbGw9IiNjOWEyMjciPgogICAgPCEtLSBDdXAgYm93bCAtLT4KICAgIDxlbGxpcHNlIGN4PSIwIiBjeT0iLTM2IiByeD0iMjIiIHJ5PSI4Ii8+CiAgICA8cGF0aCBkPSJNLTIyLC0zNiBRLTI4LC0yMCAtMjAsLTggUS0xMiw0IDAsOCBRMTIsNCAyMCwtOCBRMjgsLTIwIDIyLC0zNiBaIi8+CiAgICA8IS0tIEhhbmRsZXMgLS0+CiAgICA8cGF0aCBkPSJNLTIyLC0zMCBRLTM4LC0yOCAtMzgsLTE2IFEtMzgsLTQgLTI0LC00IiBzdHJva2U9IiNjOWEyMjciIHN0cm9rZS13aWR0aD0iNSIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgICA8cGF0aCBkPSJNMjIsLTMwIFEzOCwtMjggMzgsLTE2IFEzOCwtNCAyNCwtNCIgc3Ryb2tlPSIjYzlhMjI3IiBzdHJva2Utd2lkdGg9IjUiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogICAgPCEtLSBTdGVtIC0tPgogICAgPHJlY3QgeD0iLTQiIHk9IjgiIHdpZHRoPSI4IiBoZWlnaHQ9IjE2IiByeD0iMiIvPgogICAgPCEtLSBCYXNlIC0tPgogICAgPHJlY3QgeD0iLTE0IiB5PSIyNCIgd2lkdGg9IjI4IiBoZWlnaHQ9IjYiIHJ4PSIzIi8+CiAgICA8cmVjdCB4PSItMTAiIHk9IjMwIiB3aWR0aD0iMjAiIGhlaWdodD0iNCIgcng9IjIiLz4KICA8L2c+CiAgPCEtLSAiMjYiIG92ZXJsYXkgaW4gd2hpdGUsIHNsaWdodGx5IHRyYW5zcGFyZW50IC0tPgogIDx0ZXh0IHg9IjYwIiB5PSI5MiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrLEltcGFjdCxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iOTAwIiBmb250LXNpemU9IjcyIiBsZXR0ZXItc3BhY2luZz0iLTQiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjA4Ij4yNjwvdGV4dD4KPC9zdmc+';
+
+let currentTz='ET';
+const TZ_OFFSETS={ET:0,BST:5,CET:6,LOCAL:null};
+const SCHED_ET={
+  L:{
+    0:[
+      {d:'Jun 28',h:15,m:0,v:'SoFi Stadium',c:'Inglewood, CA'},
+      {d:'Jun 29',h:13,m:0,v:'NRG Stadium',c:'Houston, TX'},
+      {d:'Jun 29',h:16,m:30,v:'Gillette Stadium',c:'Foxborough, MA'},
+      {d:'Jun 29',h:21,m:0,v:'Estadio BBVA',c:'Monterrey, MEX'},
+      {d:'Jun 30',h:13,m:0,v:'AT&T Stadium',c:'Arlington, TX'},
+      {d:'Jun 30',h:17,m:0,v:'MetLife Stadium',c:'East Rutherford, NJ'},
+      {d:'Jun 30',h:21,m:0,v:'Estadio Azteca',c:'Mexico City, MEX'},
+      {d:'Jul 1',h:12,m:0,v:'Mercedes-Benz Std',c:'Atlanta, GA'},
+    ],
+    1:[
+      {d:'Jul 4',h:13,m:0,v:'NRG Stadium',c:'Houston, TX'},
+      {d:'Jul 4',h:17,m:0,v:'Lincoln Financial',c:'Philadelphia, PA'},
+      {d:'Jul 5',h:16,m:0,v:'MetLife Stadium',c:'East Rutherford, NJ'},
+      {d:'Jul 5',h:20,m:0,v:'Estadio Azteca',c:'Mexico City, MEX'},
+    ],
+    2:[
+      {d:'Jul 9',h:16,m:0,v:'Gillette Stadium',c:'Foxborough, MA'},
+      {d:'Jul 10',h:15,m:0,v:'SoFi Stadium',c:'Inglewood, CA'},
+    ],
+    3:[
+      {d:'Jul 14',h:15,m:0,v:'AT&T Stadium',c:'Arlington, TX'},
+    ],
+  },
+  R:{
+    0:[
+      {d:'Jul 1',h:16,m:0,v:'Lumen Field',c:'Seattle, WA'},
+      {d:'Jul 1',h:20,m:0,v:"Levi's Stadium",c:'Santa Clara, CA'},
+      {d:'Jul 2',h:15,m:0,v:'SoFi Stadium',c:'Inglewood, CA'},
+      {d:'Jul 2',h:19,m:0,v:'BMO Field',c:'Toronto, CAN'},
+      {d:'Jul 2',h:23,m:0,v:'BC Place',c:'Vancouver, CAN'},
+      {d:'Jul 3',h:14,m:0,v:'AT&T Stadium',c:'Arlington, TX'},
+      {d:'Jul 3',h:18,m:0,v:'Hard Rock Stadium',c:'Miami, FL'},
+      {d:'Jul 3',h:21,m:30,v:'Arrowhead Stadium',c:'Kansas City, MO'},
+    ],
+    1:[
+      {d:'Jul 6',h:15,m:0,v:'AT&T Stadium',c:'Arlington, TX'},
+      {d:'Jul 6',h:20,m:0,v:'Lumen Field',c:'Seattle, WA'},
+      {d:'Jul 7',h:12,m:0,v:'Mercedes-Benz Std',c:'Atlanta, GA'},
+      {d:'Jul 7',h:16,m:0,v:'BC Place',c:'Vancouver, CAN'},
+    ],
+    2:[
+      {d:'Jul 11',h:17,m:0,v:'Hard Rock Stadium',c:'Miami, FL'},
+      {d:'Jul 11',h:21,m:0,v:'Arrowhead Stadium',c:'Kansas City, MO'},
+    ],
+    3:[
+      {d:'Jul 15',h:15,m:0,v:'Mercedes-Benz Std',c:'Atlanta, GA'},
+    ],
+  },
+  F:{d:'Jul 19',h:15,m:0,v:'MetLife Stadium',c:'East Rutherford, NJ'},
+  T:{d:'Jul 18',h:17,m:0,v:'Hard Rock Stadium',c:'Miami, FL'},
+};
+
+function fmtTime(h,m,tz){
+ let oh=h,om=m;
+ if(tz==='LOCAL'){
+ const etDate=new Date();
+ etDate.setUTCHours(h+4,m,0,0);
+ oh=etDate.getHours(); om=etDate.getMinutes();
+ const ap=oh>=12?'PM':'AM'; oh=oh%12||12;
+ return `${oh}${om?':'+String(om).padStart(2,'0'):''}${ap} local`;
+ }
+ const offset=TZ_OFFSETS[tz]||0;
+ oh=(h+offset)%24;
+ const ap=oh>=12?'PM':'AM'; oh=oh%12||12;
+ const label=tz==='ET'?'ET':tz==='BST'?'BST':'CET';
+ return `${oh}${om?':'+String(om).padStart(2,'0'):''}:00 ${label}`;
+}
+
+function getSched(side,round,idx){
+ const base=SCHED_ET[side][round][idx];
+ return{d:base.d, t:fmtTime(base.h,base.m,currentTz), v:base.v, c:base.c};
+}
+function getSchedF(){const b=SCHED_ET.F;return{d:b.d,t:fmtTime(b.h,b.m,currentTz),v:b.v,c:b.c};}
+function getSchedT(){const b=SCHED_ET.T;return{d:b.d,t:fmtTime(b.h,b.m,currentTz),v:b.v,c:b.c};}
+
+function setTz(tz){
+ currentTz=tz;
+ ['ET','BST','CET','LOCAL'].forEach(t=>{
+ const el=document.getElementById('tz-'+t.toLowerCase());
+ if(el)el.classList.toggle('active',t===tz);
+ });
+ save(); render();
+ toast('Times shown in '+tz);
+}
+
+const L32=[
+ [{f:'🇨🇦',n:'Canada',g:1.6},{f:'🇲🇽',n:'Mexico',g:1.5}],
+ [{f:'🇧🇷',n:'Brazil',g:2.0},{f:'🇸🇪',n:'Sweden',g:0.8}],
+ [{f:'🇩🇪',n:'Germany',g:1.8},{f:'🇸🇦',n:'Saudi Arabia',g:0.7}],
+ [{f:'🇳🇱',n:'Netherlands',g:1.6},{f:'🇲🇦',n:'Morocco',g:0.9}],
+ [{f:'🇩🇪',n:'Germany',g:1.5},{f:'🇫🇷',n:'France',g:1.4}],
+ [{f:'🇫🇷',n:'France',g:1.9},{f:'🇮🇶',n:'Iraq',g:0.5}],
+ [{f:'🇲🇽',n:'Mexico',g:1.7},{f:'🇨🇿',n:'Czechia',g:0.7}],
+ [{f:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',n:'England',g:1.8},{f:'🇭🇷',n:'Croatia',g:0.9}],
+];
+const R32=[
+ [{f:'🇧🇪',n:'Belgium',g:1.5},{f:'🇳🇿',n:'New Zealand',g:0.5}],
+ [{f:'🇺🇸',n:'USA',g:1.4},{f:'🇦🇺',n:'Australia',g:0.7}],
+ [{f:'🇪🇸',n:'Spain',g:2.0},{f:'🇦🇷',n:'Argentina',g:1.8}],
+ [{f:'🇵🇹',n:'Portugal',g:1.7},{f:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',n:'England',g:1.5}],
+ [{f:'🇨🇦',n:'Canada',g:1.6},{f:'🇧🇪',n:'Belgium',g:1.2}],
+ [{f:'🇺🇸',n:'USA',g:1.3},{f:'🇮🇷',n:'Iran',g:0.9}],
+ [{f:'🇦🇷',n:'Argentina',g:1.9},{f:'🇺🇾',n:'Uruguay',g:1.0}],
+ [{f:'🇵🇹',n:'Portugal',g:1.6},{f:'🇨🇴',n:'Colombia',g:1.0}],
+];
+const GROUPS={
+ A:[{f:'🇲🇽',n:'Mexico'},{f:'🇿🇦',n:'South Africa'},{f:'🇰🇷',n:'South Korea'},{f:'🇨🇿',n:'Czechia'}],
+ B:[{f:'🇨🇦',n:'Canada'},{f:'🇨🇭',n:'Switzerland'},{f:'🇶🇦',n:'Qatar'},{f:'🇧🇦',n:'Bosnia & Herz.'}],
+ C:[{f:'🇧🇷',n:'Brazil'},{f:'🇲🇦',n:'Morocco'},{f:'🇭🇹',n:'Haiti'},{f:'🏴󠁧󠁢󠁳󠁣󠁴󠁿',n:'Scotland'}],
+ D:[{f:'🇺🇸',n:'USA'},{f:'🇵🇾',n:'Paraguay'},{f:'🇦🇺',n:'Australia'},{f:'🇹🇷',n:'Türkiye'}],
+ E:[{f:'🇩🇪',n:'Germany'},{f:'🇨🇼',n:'Curaçao'},{f:'🇨🇮',n:'Ivory Coast'},{f:'🇪🇨',n:'Ecuador'}],
+ F:[{f:'🇳🇱',n:'Netherlands'},{f:'🇯🇵',n:'Japan'},{f:'🇸🇪',n:'Sweden'},{f:'🇹🇳',n:'Tunisia'}],
+ G:[{f:'🇧🇪',n:'Belgium'},{f:'🇪🇬',n:'Egypt'},{f:'🇮🇷',n:'Iran'},{f:'🇳🇿',n:'New Zealand'}],
+ H:[{f:'🇪🇸',n:'Spain'},{f:'🇨🇻',n:'Cape Verde'},{f:'🇸🇦',n:'Saudi Arabia'},{f:'🇺🇾',n:'Uruguay'}],
+ I:[{f:'🇫🇷',n:'France'},{f:'🇸🇳',n:'Senegal'},{f:'🇳🇴',n:'Norway'},{f:'🇮🇶',n:'Iraq'}],
+ J:[{f:'🇦🇷',n:'Argentina'},{f:'🇩🇿',n:'Algeria'},{f:'🇦🇹',n:'Austria'},{f:'🇯🇴',n:'Jordan'}],
+ K:[{f:'🇵🇹',n:'Portugal'},{f:'🇨🇩',n:'DR Congo'},{f:'🇺🇿',n:'Uzbekistan'},{f:'🇨🇴',n:'Colombia'}],
+ L:[{f:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',n:'England'},{f:'🇭🇷',n:'Croatia'},{f:'🇬🇭',n:'Ghana'},{f:'🇵🇦',n:'Panama'}],
+};
+const COUNTRIES=[['🇦🇫','Afghanistan'],['🇦🇱','Albania'],['🇩🇿','Algeria'],['🇦🇩','Andorra'],['🇦🇴','Angola'],['🇦🇷','Argentina'],['🇦🇲','Armenia'],['🇦🇺','Australia'],['🇦🇹','Austria'],['🇦🇿','Azerbaijan'],['🇧🇸','Bahamas'],['🇧🇭','Bahrain'],['🇧🇩','Bangladesh'],['🇧🇾','Belarus'],['🇧🇪','Belgium'],['🇧🇿','Belize'],['🇧🇯','Benin'],['🇧🇹','Bhutan'],['🇧🇴','Bolivia'],['🇧🇦','Bosnia & Herzegovina'],['🇧🇼','Botswana'],['🇧🇷','Brazil'],['🇧🇳','Brunei'],['🇧🇬','Bulgaria'],['🇧🇫','Burkina Faso'],['🇧🇮','Burundi'],['🇰🇭','Cambodia'],['🇨🇲','Cameroon'],['🇨🇦','Canada'],['🇨🇻','Cape Verde'],['🇨🇫','Central African Rep.'],['🇹🇩','Chad'],['🇨🇱','Chile'],['🇨🇳','China'],['🇨🇴','Colombia'],['🇨🇩','DR Congo'],['🇨🇷','Costa Rica'],['🇭🇷','Croatia'],['🇨🇺','Cuba'],['🇨🇾','Cyprus'],['🇨🇿','Czechia'],['🇩🇰','Denmark'],['🇩🇴','Dominican Republic'],['🇪🇨','Ecuador'],['🇪🇬','Egypt'],['🇸🇻','El Salvador'],['🏴󠁧󠁢󠁥󠁮󠁧󠁿','England'],['🇬🇶','Equatorial Guinea'],['🇪🇪','Estonia'],['🇸🇿','Eswatini'],['🇪🇹','Ethiopia'],['🇫🇯','Fiji'],['🇫🇮','Finland'],['🇫🇷','France'],['🇬🇦','Gabon'],['🇬🇲','Gambia'],['🇬🇪','Georgia'],['🇩🇪','Germany'],['🇬🇭','Ghana'],['🇬🇷','Greece'],['🇬🇹','Guatemala'],['🇬🇳','Guinea'],['🇬🇾','Guyana'],['🇭🇹','Haiti'],['🇭🇳','Honduras'],['🇭🇺','Hungary'],['🇮🇸','Iceland'],['🇮🇳','India'],['🇮🇩','Indonesia'],['🇮🇷','Iran'],['🇮🇶','Iraq'],['🇮🇪','Ireland'],['🇮🇱','Israel'],['🇮🇹','Italy'],['🇯🇲','Jamaica'],['🇯🇵','Japan'],['🇯🇴','Jordan'],['🇰🇿','Kazakhstan'],['🇰🇪','Kenya'],['🇽🇰','Kosovo'],['🇰🇼','Kuwait'],['🇰🇬','Kyrgyzstan'],['🇱🇦','Laos'],['🇱🇻','Latvia'],['🇱🇧','Lebanon'],['🇱🇸','Lesotho'],['🇱🇷','Liberia'],['🇱🇾','Libya'],['🇱🇹','Lithuania'],['🇱🇺','Luxembourg'],['🇲🇬','Madagascar'],['🇲🇼','Malawi'],['🇲🇾','Malaysia'],['🇲🇻','Maldives'],['🇲🇱','Mali'],['🇲🇹','Malta'],['🇲🇷','Mauritania'],['🇲🇺','Mauritius'],['🇲🇽','Mexico'],['🇲🇩','Moldova'],['🇲🇳','Mongolia'],['🇲🇪','Montenegro'],['🇲🇦','Morocco'],['🇲🇿','Mozambique'],['🇲🇲','Myanmar'],['🇳🇦','Namibia'],['🇳🇵','Nepal'],['🇳🇱','Netherlands'],['🇳🇿','New Zealand'],['🇳🇮','Nicaragua'],['🇳🇪','Niger'],['🇳🇬','Nigeria'],['🇲🇰','North Macedonia'],['🇳🇴','Norway'],['🇴🇲','Oman'],['🇵🇰','Pakistan'],['🇵🇦','Panama'],['🇵🇬','Papua New Guinea'],['🇵🇾','Paraguay'],['🇵🇪','Peru'],['🇵🇭','Philippines'],['🇵🇱','Poland'],['🇵🇹','Portugal'],['🇶🇦','Qatar'],['🇷🇴','Romania'],['🇷🇺','Russia'],['🇷🇼','Rwanda'],['🇸🇦','Saudi Arabia'],['🏴󠁧󠁢󠁳󠁣󠁴󠁿','Scotland'],['🇸🇳','Senegal'],['🇷🇸','Serbia'],['🇸🇱','Sierra Leone'],['🇸🇬','Singapore'],['🇸🇰','Slovakia'],['🇸🇮','Slovenia'],['🇸🇴','Somalia'],['🇿🇦','South Africa'],['🇰🇷','South Korea'],['🇸🇸','South Sudan'],['🇪🇸','Spain'],['🇱🇰','Sri Lanka'],['🇸🇩','Sudan'],['🇸🇪','Sweden'],['🇨🇭','Switzerland'],['🇸🇾','Syria'],['🇹🇼','Taiwan'],['🇹🇯','Tajikistan'],['🇹🇿','Tanzania'],['🇹🇭','Thailand'],['🇹🇬','Togo'],['🇹🇳','Tunisia'],['🇹🇷','Türkiye'],['🇺🇬','Uganda'],['🇺🇦','Ukraine'],['🇦🇪','UAE'],['🇬🇧','United Kingdom'],['🇺🇸','USA'],['🇺🇾','Uruguay'],['🇺🇿','Uzbekistan'],['🇻🇪','Venezuela'],['🇻🇳','Vietnam'],['🏴󠁧󠁢󠁷󠁬󠁳󠁿','Wales'],['🇾🇪','Yemen'],['🇿🇲','Zambia'],['🇿🇼','Zimbabwe']];
+
+let picks={L:{0:{},1:{},2:{},3:{}},R:{0:{},1:{},2:{},3:{}},F:null,T:null};
+let profile={name:'',country:'',cflag:''};
+let undoStack=[];
+let resetPending=false;
+
+function save(){
+ try{localStorage.setItem('wc2026v8',JSON.stringify({picks,tz:currentTz}));}catch(e){}
+}
+function load(){
+ try{
+  const r=localStorage.getItem('wc2026v8');
+  if(r){
+   const d=JSON.parse(r);
+   picks=d.picks||picks;
+   // Restore TZ preference but NOT name/country — user enters these fresh each session
+   if(d.tz)currentTz=d.tz;
+   // Strip stale profile from storage if present from older saves
+   if(d.profile){delete d.profile;localStorage.setItem('wc2026v8',JSON.stringify(d));}
+  }
+ }catch(e){}
+}
+
+function pushUndo(){
+ undoStack.push(JSON.stringify(picks));
+ if(undoStack.length>50)undoStack.shift();
+ syncUndoBtn();
+}
+function doUndo(){
+ if(!undoStack.length)return;
+ picks=JSON.parse(undoStack.pop());
+ syncUndoBtn();
+ save();render();toast('Pick undone');
+}
+function syncUndoBtn(){
+ const hasHistory=undoStack.length===0;
+ const btn=document.getElementById('undo-btn');
+ if(btn)btn.disabled=hasHistory;
+ const mob=document.getElementById('mob-undo');
+ if(mob)mob.disabled=hasHistory;
+}
+
+function tick(){
+ const n=new Date();
+ document.getElementById('dtd').textContent=n.toLocaleDateString(undefined,{weekday:'short',day:'numeric',month:'short',year:'numeric'});
+ document.getElementById('dtt').textContent=n.toLocaleTimeString(undefined,{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+}
+
+const COUNTRIES_SORTED=[...COUNTRIES].sort((a,b)=>a[1].localeCompare(b[1]));
+function populateCountries(){
+ const sel=document.getElementById('ucountry');
+ COUNTRIES_SORTED.forEach(([f,n])=>{
+  const o=document.createElement('option');o.value=n;o.textContent=f+' '+n;sel.appendChild(o);
+ });
+ // Don't restore name/country from storage — user fills in fresh each session
+ document.addEventListener('click',e=>{
+  const wrap=document.getElementById('country-wrap');
+  if(wrap&&!wrap.contains(e.target))closeCountryDrop();
+ });
+ const si=document.getElementById('ucountry-search');
+ if(!si)return;
+ si.addEventListener('keydown',e=>{
+  if(e.key==='Escape'){closeCountryDrop();e.target.blur();}
+  if(e.key==='Enter'){const hi=document.querySelector('.cdrop-item.highlighted');if(hi)hi.click();}
+  if(e.key==='ArrowDown'){
+   e.preventDefault();
+   const items=[...document.querySelectorAll('.cdrop-item')];
+   const cur=items.findIndex(i=>i.classList.contains('highlighted'));
+   const next=items[cur+1]||items[0];
+   items.forEach(i=>i.classList.remove('highlighted'));
+   if(next){next.classList.add('highlighted');next.scrollIntoView({block:'nearest'});}
+  }
+  if(e.key==='ArrowUp'){
+   e.preventDefault();
+   const items=[...document.querySelectorAll('.cdrop-item')];
+   const cur=items.findIndex(i=>i.classList.contains('highlighted'));
+   const prev=items[cur-1]||items[items.length-1];
+   items.forEach(i=>i.classList.remove('highlighted'));
+   if(prev){prev.classList.add('highlighted');prev.scrollIntoView({block:'nearest'});}
+  }
+ });
+}
+function openCountryDrop(){
+ filterCountries();
+ document.getElementById('country-drop').classList.add('open');
+ document.getElementById('ucountry-search').setAttribute('aria-expanded','true');
+}
+function closeCountryDrop(){
+ const drop=document.getElementById('country-drop');
+ if(!drop)return;
+ drop.classList.remove('open');
+ const si=document.getElementById('ucountry-search');
+ if(si)si.setAttribute('aria-expanded','false');
+ if(si&&profile.country&&si.value!==profile.country)si.value=profile.country;
+ else if(si&&!profile.country)si.value='';
+}
+function filterCountries(){
+ const q=(document.getElementById('ucountry-search').value||'').toLowerCase().trim();
+ const drop=document.getElementById('country-drop');
+ const matches=q?COUNTRIES_SORTED.filter(([f,n])=>n.toLowerCase().includes(q)):COUNTRIES_SORTED;
+ drop.innerHTML='';
+ if(!matches.length){drop.innerHTML='<div class="cdrop-empty">No results</div>';drop.classList.add('open');return;}
+ matches.slice(0,80).forEach(([f,n])=>{
+  const item=document.createElement('div');
+  item.className='cdrop-item'+(profile.country===n?' selected':'');
+  item.setAttribute('role','option');
+  item.setAttribute('aria-selected',profile.country===n?'true':'false');
+  item.innerHTML='<span style="font-size:16px">'+f+'</span><span>'+n+'</span>';
+  item.onclick=()=>{
+   document.getElementById('ucountry').value=n;
+   document.getElementById('ucountry-search').value=n;
+   closeCountryDrop();
+   onPC();
+  };
+  drop.appendChild(item);
+ });
+ drop.classList.add('open');
+}
+function clearName(){
+ document.getElementById('uname').value='';
+ document.getElementById('uname-clear').classList.remove('visible');
+ onPC();
+}
+function clearCountry(){
+ document.getElementById('ucountry').value='';
+ const si=document.getElementById('ucountry-search');
+ if(si)si.value='';
+ closeCountryDrop();
+ document.getElementById('ucountry-clear').classList.remove('visible');
+ onPC();
+}
+
+function onPC(){
+ profile.name=document.getElementById('uname').value.trim();
+ const sel=document.getElementById('ucountry');
+ profile.country=sel.value;
+ const opt=sel.options[sel.selectedIndex];
+ profile.cflag=opt&&opt.value?opt.textContent.split(' ')[0]:'';
+ document.getElementById('uname-clear').classList.toggle('visible', !!profile.name);
+ document.getElementById('ucountry-clear').classList.toggle('visible', !!profile.country);
+ save();renderCT();renderGroups();
+}
+function restoreProfile(){
+ // Name/country entered fresh each session — not restored from storage
+ ['ET','BST','CET','LOCAL'].forEach(t=>{
+ const el=document.getElementById('tz-'+t.toLowerCase());
+ if(el)el.classList.toggle('active',t===currentTz);
+ });
+ onPC();
+}
+
+function getTeams(side,round,match){
+ if(round===0)return side==='L'?L32[match]:R32[match];
+ return[picks[side][round-1][match*2]||null,picks[side][round-1][match*2+1]||null];
+}
+function cascadeClear(side,round,match){
+ delete picks[side][round][match];
+ if(round<3)cascadeClear(side,round+1,Math.floor(match/2));
+ if(round===3){picks.F=null;picks.T=null;}
+}
+function pickTeam(side,round,match,team){
+ pushUndo();
+ picks[side][round][match]=team;
+ const nr=round+1,nm=Math.floor(match/2);
+ if(nr<=3&&picks[side][nr][nm]){
+ const[t0,t1]=getTeams(side,nr,nm);const cur=picks[side][nr][nm];
+ if(!(t0&&t0.n===cur.n)&&!(t1&&t1.n===cur.n))cascadeClear(side,nr,nm);
+ }
+ if(round===3){picks.F=null;picks.T=null;}
+ save();render();
+}
+function pickFinal(team){pushUndo();picks.F=team;save();render();launchConfetti();}
+function pickThird(team){pushUndo();picks.T=team;save();render();}
+function resetBtnDefault(b){
+ if(!b)return;
+ b.innerHTML='<span class="abtn-icon">↺</span><span class="abtn-label"> Reset</span>';
+ b.style.background='';b.style.color='';b.style.borderColor='';
+}
+function doReset(){
+ if(!resetPending){
+ resetPending=true;
+ const btn=document.getElementById('reset-btn');
+ if(btn){btn.textContent='Sure?';btn.style.background='var(--danger,#c0392b)';btn.style.color='#fff';btn.style.borderColor='var(--danger,#c0392b)';}
+ setTimeout(()=>{
+ resetPending=false;
+ resetBtnDefault(document.getElementById('reset-btn'));
+ },3000);
+ return;
+ }
+ resetPending=false;
+ resetBtnDefault(document.getElementById('reset-btn'));
+ pushUndo();
+ picks={L:{0:{},1:{},2:{},3:{}},R:{0:{},1:{},2:{},3:{}},F:null,T:null};
+ profile={name:'',country:'',cflag:''};
+ document.getElementById('uname').value='';
+ document.getElementById('ucountry').value='';
+ const _si=document.getElementById('ucountry-search');if(_si)_si.value='';
+ document.getElementById('uname-clear').classList.remove('visible');
+ document.getElementById('ucountry-clear').classList.remove('visible');
+ save();onPC();render();toast('Everything reset');
+}
+
+function getAllPickedNames(){
+ const s=new Set();
+ ['L','R'].forEach(sd=>{[0,1,2,3].forEach(r=>{const cnt=[8,4,2,1][r];for(let m=0;m<cnt;m++){if(picks[sd][r][m])s.add(picks[sd][r][m].n);}});});
+ if(picks.F)s.add(picks.F.n);
+ if(picks.T)s.add(picks.T.n);
+ return s;
+}
+function getStageLabel(n){
+ if(picks.F&&picks.F.n===n)return'Champion';
+ if(picks.T&&picks.T.n===n)return'3rd Place';
+ const rl=['→R16','→QF','→SF','→Final'];
+ for(let r=3;r>=0;r--){
+ for(const s of['L','R']){const cnt=[8,4,2,1][r];for(let m=0;m<cnt;m++){if(picks[s][r][m]&&picks[s][r][m].n===n)return rl[r];}}
+ }
+ return'';
+}
+
+function makeMeta(sc){
+ const d=document.createElement('div');d.className='mmeta';
+ const dt=document.createElement('div');dt.className='mmeta-dt';dt.textContent=sc.d+' · '+sc.t;
+ const v=document.createElement('div');v.className='mmeta-venue';v.textContent=sc.v+' — '+sc.c;v.title=sc.v+' — '+sc.c;
+ d.appendChild(dt);d.appendChild(v);return d;
+}
+function makeRow(t,isW,fn){
+ const r=document.createElement('div');
+ r.className='tr'+(t?'':' tbd')+(isW?' winner':'');
+ if(t){r.innerHTML=`<span class="tf">${t.f}</span><span class="tn">${t.n}</span><span class="tg">${t.g}</span>`;r.onclick=fn;}
+ else{r.innerHTML=`<span class="tf" style="opacity:.15">·</span><span class="tn" style="color:var(--tx3)">TBD</span>`;}
+ return r;
+}
+function makeCard(side,round,match){
+ const[t0,t1]=getTeams(side,round,match);
+ const w=picks[side][round][match];
+ const sc=SCHED_ET[side][round]?getSched(side,round,match):null;
+ const c=document.createElement('div');c.className='mc';
+ if(sc)c.appendChild(makeMeta(sc));
+ c.appendChild(makeRow(t0,w&&t0&&w.n===t0.n,()=>pickTeam(side,round,match,t0)));
+ c.appendChild(makeRow(t1,w&&t1&&w.n===t1.n,()=>pickTeam(side,round,match,t1)));
+ return c;
+}
+
+function addConnectors(rcol){
+ const wraps=rcol.querySelectorAll('.mwrap');if(!wraps.length)return;
+ const ns='http://www.w3.org/2000/svg';
+ const svg=document.createElementNS(ns,'svg');svg.classList.add('connector-svg');svg.setAttribute('aria-hidden','true');
+ rcol.appendChild(svg);
+ function draw(){
+ svg.innerHTML='';
+ const cr=rcol.getBoundingClientRect();
+ const col=window.matchMedia('(prefers-color-scheme:dark)').matches?'rgba(255,255,255,0.10)':'rgba(0,0,0,0.13)';
+ const wc='rgba(43,127,212,0.30)';
+ for(let i=0;i<wraps.length;i+=2){
+ const wA=wraps[i],wB=wraps[i+1];if(!wA||!wB)continue;
+ const rA=wA.getBoundingClientRect(),rB=wB.getBoundingClientRect();
+ const yA=rA.top+rA.height/2-cr.top,yB=rB.top+rB.height/2-cr.top,yM=(yA+yB)/2;
+ const xR=cr.width-2;
+ const hw=picks[rcol.dataset.side]&&picks[rcol.dataset.side][+rcol.dataset.round]&&picks[rcol.dataset.side][+rcol.dataset.round][Math.floor(i/2)];
+ const p=document.createElementNS(ns,'path');
+ p.setAttribute('d',`M${xR-10},${yA} H${xR} M${xR-10},${yB} H${xR} M${xR},${yA} V${yM} M${xR},${yB} V${yM}`);
+ p.setAttribute('stroke',hw?wc:col);p.setAttribute('stroke-width',hw?1.5:1);
+ p.setAttribute('fill','none');p.setAttribute('stroke-linecap','round');
+ svg.appendChild(p);
+ }
+ }
+ rcol._drawLines=draw;setTimeout(draw,50);
+}
+function makeRound(side,round,count){
+ const col=document.createElement('div');col.className='rcol';col.dataset.side=side;col.dataset.round=round;
+ for(let m=0;m<count;m++){const w=document.createElement('div');w.className='mwrap';w.appendChild(makeCard(side,round,m));col.appendChild(w);}
+ if(count>1)addConnectors(col);return col;
+}
+function makeRW(lbl,side,round,count){
+ const w=document.createElement('div');w.className='rwrap';w.setAttribute('data-round',round);
+ const l=document.createElement('div');l.className='rlbl';l.textContent=lbl;
+ w.appendChild(l);w.appendChild(makeRound(side,round,count));return w;
+}
+
+function makeCenter(){
+ const lSF=picks.L[3][0],rSF=picks.R[3][0],champ=picks.F;
+ const fs=getSchedF();
+ const ts=getSchedT();
+ const lQF0=picks.L[2][0],lQF1=picks.L[2][1],rQF0=picks.R[2][0],rQF1=picks.R[2][1];
+ const t3L=lSF?[lQF0,lQF1].find(t=>t&&t.n!==lSF.n):null;
+ const t3R=rSF?[rQF0,rQF1].find(t=>t&&t.n!==rSF.n):null;
+ const validThird=new Set([t3L&&t3L.n,t3R&&t3R.n].filter(Boolean));
+ if(picks.T&&!validThird.has(picks.T.n)){picks.T=null;save();}
+ const col=document.createElement('div');col.className='ccol';
+ const lbl=document.createElement('div');lbl.className='clbl';lbl.textContent='Final';col.appendChild(lbl);
+ const box=document.createElement('div');box.className='cbox';
+ const bmeta=document.createElement('div');bmeta.className='mmeta';
+ const bdt=document.createElement('div');bdt.className='mmeta-dt';bdt.textContent=fs.d+' · '+fs.t;
+ const bvn=document.createElement('div');bvn.className='mmeta-venue';bvn.textContent=fs.v+' — '+fs.c;bvn.title=fs.v+' — '+fs.c;
+ bmeta.appendChild(bdt);bmeta.appendChild(bvn);box.appendChild(bmeta);
+ if(champ){
+  const champMeta=document.createElement('div');champMeta.className='mmeta';
+  const champLblEl=document.createElement('div');champLblEl.className='mmeta-dt';champLblEl.style.color='var(--gold)';champLblEl.textContent='Champion';
+  champMeta.appendChild(champLblEl);box.appendChild(champMeta);
+  const champRow=document.createElement('div');champRow.className='tr winner';
+  champRow.style.cssText='cursor:default;';
+  champRow.innerHTML=`<span class="tf">${champ.f}</span><span class="tn" style="font-size:10.5px">${champ.n}</span>`;
+  box.appendChild(champRow);
+ }else{
+  const champHdr=document.createElement('div');champHdr.className='mmeta';
+  const champHdrLbl=document.createElement('div');champHdrLbl.className='mmeta-dt';champHdrLbl.textContent='Pick your champion';
+  champHdr.appendChild(champHdrLbl);box.appendChild(champHdr);
+  [lSF,rSF].forEach(t=>{
+   const r=document.createElement('div');r.className='fpr'+(t?'':' tbd');
+   if(t){r.innerHTML=`<span class="tf">${t.f}</span><span class="tn">${t.n}</span><span class="tg">${t.g||''}</span>`;r.onclick=()=>pickFinal(t);}
+   else{r.innerHTML=`<span class="tf" style="opacity:.15">·</span><span class="tn" style="color:var(--tx3)">TBD</span>`;}
+   box.appendChild(r);
+  });
+  const pad=document.createElement('div');pad.style.height='6px';box.appendChild(pad);
+ }
+ col.appendChild(box);
+ const tb=document.createElement('div');tb.className='tbox';
+ const tmeta2=document.createElement('div');tmeta2.className='mmeta';
+ const tdt=document.createElement('div');tdt.className='mmeta-dt';tdt.textContent=ts.d+' · '+ts.t;
+ const tvn=document.createElement('div');tvn.className='mmeta-venue';tvn.textContent=ts.v+' — '+ts.c;tvn.title=ts.v+' — '+ts.c;
+ tmeta2.appendChild(tdt);tmeta2.appendChild(tvn);tb.appendChild(tmeta2);
+ const tboxMeta=document.createElement('div');tboxMeta.className='mmeta';
+ const tboxLbl=document.createElement('div');tboxLbl.className='mmeta-dt';tboxLbl.textContent='3rd place play-off';
+ tboxMeta.appendChild(tboxLbl);tb.appendChild(tboxMeta);
+ [t3L,t3R].forEach(t=>{
+  const row=document.createElement('div');
+  const isW=picks.T&&t&&picks.T.n===t.n;
+  row.className='tr'+(t?''  :' tbd')+(isW?' winner':'');
+  if(!t)row.style.cursor='default';
+  if(t){
+   row.innerHTML=`<span class="tf">${t.f}</span><span class="tn">${t.n}</span>${isW?'<span class="tg" style="color:var(--blua);font-size:9px">3rd</span>':''}`;
+   row.onmouseenter=()=>{if(!isW)row.style.background='var(--bg2)';};
+   row.onmouseleave=()=>{if(!isW)row.style.background='transparent';};
+   row.onclick=()=>pickThird(t);
+  }else{
+   row.innerHTML=`<span class="tf" style="opacity:.15">·</span><span class="tn" style="color:var(--tx3)">TBD</span>`;
+  }
+  tb.appendChild(row);
+ });
+ const pad2=document.createElement('div');pad2.style.height='6px';tb.appendChild(pad2);
+ col.appendChild(tb);return col;
+}
+
+function isMobile(){return window.innerWidth<=700;}
+
+function initMobileAccordion(){
+  if(!isMobile())return;
+  document.querySelectorAll('.rlbl').forEach((lbl,i)=>{
+    const col=lbl.nextElementSibling;
+    if(!col||!col.classList.contains('rcol'))return;
+    // First round open by default, rest closed
+    if(i===0){lbl.classList.add('open');col.classList.add('open');}
+    lbl.onclick=()=>{
+      const isOpen=lbl.classList.contains('open');
+      lbl.classList.toggle('open',!isOpen);
+      col.classList.toggle('open',!isOpen);
+    };
+  });
+}
+
+
+/* ── Split view logic ──────────────────── */
+let brkView = (()=>{try{return localStorage.getItem('brkView')||'full';}catch(e){return 'full';}})();
+
+function setBrkView(v){
+  brkView = v;
+  try{localStorage.setItem('brkView', v);}catch(e){}
+  document.getElementById('vt-full').classList.toggle('active', v==='full');
+  document.getElementById('vt-split').classList.toggle('active', v==='split');
+  applyBrkView();
+}
+
+function refreshSplitIfActive(){
+  if(brkView === 'split' && window.innerWidth > 700) populateSplitPanels();
+}
+
+function applyBrkView(){
+  const out    = document.getElementById('brk-out');
+  const wrap   = document.getElementById('brk-split-wrap');
+  if(!out || !wrap) return;
+
+  if(brkView === 'split' && window.innerWidth > 700){
+    out.classList.add('split-hidden');
+    wrap.classList.add('active');
+    populateSplitPanels();
+  } else {
+    out.classList.remove('split-hidden');
+    wrap.classList.remove('active');
+  }
+}
+
+function populateSplitPanels(){
+  const leftInner  = document.getElementById('brk-left-inner');
+  const rightInner = document.getElementById('brk-right-inner');
+  const centerEl   = document.getElementById('brk-split-center');
+  if(!leftInner || !rightInner || !centerEl) return;
+
+  // Build fresh — reuse the same makeRW/makeCenter functions so
+  // all click handlers, connectors, and winner highlights are live.
+  leftInner.innerHTML = '';
+  rightInner.innerHTML = '';
+  centerEl.innerHTML = '';
+
+  // Left bracket: R32 → R16 → QF → SF (same order as full view)
+  const LS = document.createElement('div');
+  LS.className = 'side';
+  [['Round of 32',0,8],['Round of 16',1,4],['Quarter-finals',2,2],['Semi-finals',3,1]]
+    .forEach(([l,r,c]) => LS.appendChild(makeRW(l,'L',r,c)));
+  leftInner.appendChild(LS);
+
+  // Right bracket: SF → QF → R16 → R32 (mirror)
+  const RS = document.createElement('div');
+  RS.className = 'side';
+  [['Semi-finals',3,1],['Quarter-finals',2,2],['Round of 16',1,4],['Round of 32',0,8]]
+    .forEach(([l,r,c]) => RS.appendChild(makeRW(l,'R',r,c)));
+  rightInner.appendChild(RS);
+
+  // Centre — Final + champion
+  const ctr = makeCenter();
+  ctr.style.flexShrink = '0';
+  centerEl.appendChild(ctr);
+
+  // Redraw connectors after layout settles
+  setTimeout(()=>{
+    [leftInner, rightInner].forEach(panel => {
+      panel.querySelectorAll('.rcol').forEach(c => { if(c._drawLines) c._drawLines(); });
+    });
+  }, 60);
+}
+
+function render(){
+  renderBrk();updateProg();renderCT();renderGroups();syncUndoBtn();
+  // Keep split panels in sync if split view is active
+  setTimeout(refreshSplitIfActive, 80);
+}
+function renderBrk(){
+ const out=document.getElementById('brk-out');out.innerHTML='';
+ const g=document.createElement('div');g.className='brk';
+ const LS=document.createElement('div');LS.className='side';
+ [['Round of 32',0,8],['Round of 16',1,4],['Quarter-finals',2,2],['Semi-finals',3,1]].forEach(([l,r,c])=>LS.appendChild(makeRW(l,'L',r,c)));
+ g.appendChild(LS);const ctr=makeCenter();ctr.style.flexShrink='0';g.appendChild(ctr);
+ const RS=document.createElement('div');RS.className='side';
+ [['Semi-finals',3,1],['Quarter-finals',2,2],['Round of 16',1,4],['Round of 32',0,8]].forEach(([l,r,c])=>RS.appendChild(makeRW(l,'R',r,c)));
+ g.appendChild(RS);out.appendChild(g);
+  setTimeout(()=>{ initMobileAccordion(); applyBrkView(); },60);
+ window.addEventListener('resize',()=>{
+   document.querySelectorAll('.rcol').forEach(c=>{if(c._drawLines)c._drawLines();});
+   applyBrkView();
+ },{passive:true});
+}
+function updateProg(){
+ let done=0,total=32;
+ ['L','R'].forEach(s=>{[8,4,2,1].forEach((cnt,r)=>{for(let m=0;m<[8,4,2,1][r];m++)if(picks[s][r][m])done++;});});
+ if(picks.F)done++;
+ if(picks.T)done++;
+ const pct=Math.round(done/total*100);
+ document.getElementById('pfill').style.width=pct+'%';
+ document.getElementById('plbl').textContent=done+' / '+total+' picks made';
+
+ setTimeout(()=>{document.querySelectorAll('.rcol').forEach(c=>{if(c._drawLines)c._drawLines();});},60);
+}
+function renderGroups(){
+ const g=document.getElementById('ggrid');if(!g)return;g.innerHTML='';
+ const picked=getAllPickedNames();
+ Object.entries(GROUPS).forEach(([letter,teams])=>{
+ const card=document.createElement('div');card.className='gcard';
+ card.innerHTML=`<div class="gtitle">Group ${letter}</div>`;
+ teams.forEach(t=>{
+ const row=document.createElement('div');
+ const ip=picked.has(t.n);
+ row.className='gteam'+(ip?' in-picks':'');
+ if(ip)row.setAttribute('data-stage',getStageLabel(t.n));
+ row.innerHTML=`<span style="font-size:15px">${t.f}</span><span>${t.n}</span>`;
+ card.appendChild(row);
+ });
+ g.appendChild(card);
+ });
+}
+function renderCT(){
+ const el=document.getElementById('chtab');if(!el)return;
+ const champ=picks.F;
+ const byN=profile.name||'Anonymous';
+ const byC=profile.cflag?profile.cflag+' '+profile.country:'';
+ const roundLabels=['Round of 32','Round of 16','Quarter-finals','Semi-finals'];
+ const roundPicks=roundLabels.map((_,r)=>{
+ const teams=[];
+ ['L','R'].forEach(s=>{const cnt=[8,4,2,1][r];for(let m=0;m<cnt;m++){if(picks[s][r][m])teams.push(picks[s][r][m]);}});
+ return teams;
+ });
+ const hasSome=roundPicks.some(rp=>rp.length>0)||champ;
+ let html='<div class="ct-wrap">';
+ if(champ){
+ const totalPicks=(()=>{let d=0;['L','R'].forEach(s=>{[8,4,2,1].forEach((cnt,r)=>{for(let m=0;m<cnt;m++)if(picks[s][r][m])d++;});});if(picks.F)d++;if(picks.T)d++;return d;})();
+ html+=`<div class="ct-hero">
+ 
+ <div class="bflag">${champ.f}</div>
+ <div class="ctitle">${champ.n}</div>
+ 
+ <div class="cby">Predicted by <strong>${byN}</strong>${byC?' · '+byC:''}</div>
+ <div style="display:inline-flex;align-items:center;gap:6px;background:var(--bg);border:0.5px solid var(--bd);border-radius:50px;padding:5px 14px;font-size:12px;color:var(--tx2);box-shadow:var(--sc)">
+ <span style="font-size:13px"></span> ${totalPicks} / 32 picks complete
+ </div>
+ </div>`;
+ }else if(!hasSome){
+ html+=`<div class="ct-pending"><p>Start making picks in the <strong>Table</strong> tab. Your predicted path to the Final will appear here as you go.</p></div>`;
+ }
+ if(hasSome){
+ html+=`<div class="journey"><div class="journey-hdr"><div class="journey-hdr-title">My Prediction Journey</div><div class="journey-hdr-sub">${byN}${byC?' · '+byC:''}</div></div>`;
+ roundLabels.forEach((lbl,r)=>{
+ const rp=roundPicks[r];
+ html+=`<div class="journey-round"><div class="journey-round-lbl">${lbl}</div>`;
+ if(rp.length){html+=`<div class="journey-teams">`;rp.forEach(t=>{const ic=champ&&champ.n===t.n;html+=`<div class="journey-team${ic?' is-champ':''}"><span style="font-size:13px">${t.f}</span>${t.n}${ic?' ':''}</div>`;});html+=`</div>`;}
+ else{html+=`<div class="journey-empty">Make picks in the Table tab to fill this round</div>`;}
+ html+=`</div>`;
+ });
+ html+=`<div class="journey-round"><div class="journey-round-lbl">Final</div>`;
+ if(champ){html+=`<div class="journey-teams"><div class="journey-team is-champ"><span style="font-size:13px">${champ.f}</span>${champ.n} </div></div>`;}
+ else if(picks.L[3][0]||picks.R[3][0]){
+ html+=`<div class="journey-teams">`;
+ [picks.L[3][0],picks.R[3][0]].filter(Boolean).forEach(t=>{html+=`<div class="journey-team"><span style="font-size:13px">${t.f}</span>${t.n}</div>`;});
+ }else{html+=`<div class="journey-empty">Complete the semi-finals to see your finalists</div>`;}
+ html+=`</div>`;
+ const lSF2=picks.L[3][0],rSF2=picks.R[3][0];
+ const lQF0j=picks.L[2][0],lQF1j=picks.L[2][1],rQF0j=picks.R[2][0],rQF1j=picks.R[2][1];
+ const t3Lj=lSF2?[lQF0j,lQF1j].find(t=>t&&t.n!==lSF2.n):null;
+ const t3Rj=rSF2?[rQF0j,rQF1j].find(t=>t&&t.n!==rSF2.n):null;
+ html+=`<div class="journey-round"><div class="journey-round-lbl">3rd Place</div>`;
+ if(picks.T){html+=`<div class="journey-teams"><div class="journey-team" style="background:var(--bg3);border-color:var(--bds)"><span style="font-size:13px">${picks.T.f}</span>${picks.T.n} </div></div>`;}
+ else if(t3Lj||t3Rj){
+ html+=`<div class="journey-teams">`;
+ [t3Lj,t3Rj].filter(Boolean).forEach(t=>{html+=`<div class="journey-team"><span style="font-size:13px">${t.f}</span>${t.n}</div>`;});
+ }else{html+=`<div class="journey-empty">Semi-final losers will appear here</div>`;}
+ html+=`</div></div>`;
+ }
+ // Prediction summary stats card
+ const totalDone=(()=>{let d=0;['L','R'].forEach(s=>{[8,4,2,1].forEach((cnt,r)=>{for(let m=0;m<cnt;m++)if(picks[s][r][m])d++;});});if(picks.F)d++;if(picks.T)d++;return d;})();
+ if(totalDone>0){
+ html+=`<div style="background:var(--bg);border-radius:var(--rl);box-shadow:var(--sc);padding:16px 18px;margin-top:16px;">
+ <div style="font-size:10.5px;font-weight:700;color:var(--tx2);letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px;">Prediction Summary</div>
+ <div style="display:flex;justify-content:space-around;text-align:center;flex-wrap:wrap;gap:12px;">
+ <div><div style="font-size:22px;font-weight:700;color:var(--tx)">${totalDone}</div><div style="font-size:10px;color:var(--tx3);margin-top:2px">Picks made</div></div>
+ <div><div style="font-size:22px;font-weight:700;color:var(--tx)">${Math.round(totalDone/32*100)}%</div><div style="font-size:10px;color:var(--tx3);margin-top:2px">Complete</div></div>
+ ${picks.F?`<div><div style="font-size:26px">${picks.F.f}</div><div style="font-size:10px;color:var(--tx3);margin-top:2px">1st</div></div>`:''}
+ ${(()=>{const lSF=picks.L[3][0],rSF=picks.R[3][0];const ru=picks.F&&lSF&&rSF?(picks.F.n===lSF.n?rSF:lSF):null;return ru?'<div><div style="font-size:26px">'+ru.f+'</div><div style="font-size:10px;color:var(--tx3);margin-top:2px">2nd</div></div>':'';})()}
+ ${picks.T?`<div><div style="font-size:26px">${picks.T.f}</div><div style="font-size:10px;color:var(--tx3);margin-top:2px">3rd</div></div>`:''}
+ </div>
+ </div>`;
+ }
+ html+='</div>';el.innerHTML=html;
+}
+
+function setChampView(v){
+ document.getElementById('chtab').style.display=v==='predicted'?'':'none';
+ document.getElementById('actual-tab').style.display=v==='actual'?'':'none';
+ document.getElementById('view-predicted').style.cssText=v==='predicted'?'font-size:11px;background:var(--blua);color:#fff;border-color:var(--blua);':'font-size:11px;';
+ document.getElementById('view-actual').style.cssText=v==='actual'?'font-size:11px;background:var(--blua);color:#fff;border-color:var(--blua);':'font-size:11px;';
+}
+function showTab(name){
+ ['bracket','groups','champion','quiz'].forEach(t=>{document.getElementById('tab-'+t).style.display=t===name?'':'none';});
+ document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['bracket','groups','champion','quiz'][i]===name));
+ if(name==='quiz'&&!quizInitialised)initQuiz();
+}
+
+function openPrint(){document.getElementById('pmodal').classList.add('open');document.getElementById('export-status').textContent='';}
+function closePrint(){document.getElementById('pmodal').classList.remove('open');}
+function closePrintOuter(e){if(e.target===document.getElementById('pmodal'))closePrint();}
+
+async function loadH2C(){
+ if(window.html2canvas)return true;
+ return new Promise((res)=>{
+ const s=document.createElement('script');
+ s.src='https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+ s.onload=()=>res(true);s.onerror=()=>res(false);
+ document.head.appendChild(s);
+ });
+}
+async function exportImage(){
+ const status=document.getElementById('export-status');
+ const btn=document.getElementById('export-png-btn');
+ status.textContent='Loading export library…';
+ if(btn){btn.disabled=true;btn.textContent='⏳ Preparing…';}
+ const loaded=await loadH2C();
+ if(!loaded){
+  status.textContent='Could not load export library. Check your internet connection.';
+  if(btn){btn.disabled=false;btn.textContent='⬇ Save as PNG';}
+  return;
+ }
+ // Ensure the bracket tab is active
+ showTab('bracket');
+ // Expand brk-out so the full bracket renders without clipping
+ const bracketEl=document.getElementById('brk-out');
+ const brkEl=bracketEl?bracketEl.querySelector('.brk'):null;
+ if(!bracketEl||!brkEl){
+  status.textContent='Error: bracket not found.';
+  if(btn){btn.disabled=false;btn.textContent='⬇ Save as PNG';}
+  return;
+ }
+ const origBrkOverflow=bracketEl.style.overflow;
+ const origBrkWidth=brkEl.style.width;
+ bracketEl.style.overflow='visible';
+ brkEl.style.width=brkEl.scrollWidth+'px';
+ // Close the export modal so it doesn't appear in the screenshot
+ document.getElementById('pmodal').classList.remove('open');
+ status.textContent='Generating image…';
+ // Small delay so the modal fade completes before capture
+ await new Promise(r=>setTimeout(r,120));
+ try{
+  const bg=getComputedStyle(document.documentElement).getPropertyValue('--bg3').trim()||'#eae9e3';
+  const fullW=Math.max(document.body.scrollWidth, document.documentElement.scrollWidth);
+  const fullH=Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+  const canvas=await html2canvas(document.body,{
+   scale:1.5,
+   useCORS:true,
+   allowTaint:true,
+   backgroundColor:bg,
+   logging:false,
+   width:fullW,
+   height:fullH,
+   windowWidth:fullW,
+   windowHeight:fullH,
+   scrollX:0,
+   scrollY:0,
+   onclone:(doc)=>{
+    // Ensure bracket overflow is visible in clone
+    const bo=doc.getElementById('brk-out');
+    if(bo){bo.style.overflow='visible';}
+    const bk=bo?bo.querySelector('.brk'):null;
+    if(bk)bk.style.width=brkEl.scrollWidth+'px';
+    // Flag emoji font
+    doc.querySelectorAll('.tf,.bflag').forEach(el=>{
+     el.style.fontFamily='Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif';
+    });
+    // Hide any open dropdowns / toasts in clone
+    doc.querySelectorAll('.sticky-cdrop,.toast,.movl,.print-movl').forEach(el=>{
+     el.style.display='none';
+    });
+   }
+  });
+  // Restore bracket styles
+  bracketEl.style.overflow=origBrkOverflow;
+  brkEl.style.width=origBrkWidth;
+  // Watermark
+  const ctx=canvas.getContext('2d');
+  const wLabel='shazmoghaddam.github.io/wc2026';
+  ctx.font=`bold ${Math.round(canvas.width*0.009)}px system-ui,sans-serif`;
+  ctx.fillStyle='rgba(100,100,90,0.35)';
+  ctx.textAlign='right';
+  ctx.fillText(wLabel, canvas.width-16, canvas.height-14);
+  // Download
+  const fname='FIFA-WC2026-'+(profile.name||'My-Prediction').replace(/\s+/g,'-')+'.png';
+  const a=document.createElement('a');
+  a.href=canvas.toDataURL('image/png');
+  a.download=fname;
+  a.click();
+  toast('Full-page PNG saved! ✅');
+ }catch(err){
+  // Restore on error
+  bracketEl.style.overflow=origBrkOverflow;
+  brkEl.style.width=origBrkWidth;
+  // Re-open modal to show error
+  document.getElementById('pmodal').classList.add('open');
+  status.textContent='Export failed: '+err.message;
+  if(btn){btn.disabled=false;btn.textContent='⬇ Save as PNG';}
+ }
+}
+
+
+function packPicks(){
+  // Pack all picks into a compact array of team indices
+  // Much smaller than JSON — about 80% reduction in URL length
+  const L32names=['Germany','France','S. Korea','Netherlands','Colombia','Spain','Türkiye','Belgium'];
+  const R32names=['Brazil','Norway','Mexico','England','Argentina','USA','Canada','Portugal'];
+  function idx(side,round,match){
+    const t=picks[side][round][match];if(!t)return 0;
+    const base=round===0?(side==='L'?L32:[R32]).concat():(null);
+    // Encode as team name hash (short)
+    return t.n.split('').reduce((a,c)=>a+c.charCodeAt(0),0)%251+1;
+  }
+  const data={p:{},pr:profile.name||'',pc:profile.country||'',pf:profile.cflag||''};
+  ['L','R'].forEach(s=>{data.p[s]={};[0,1,2,3].forEach(r=>{const cnt=[8,4,2,1][r];data.p[s][r]={};for(let m=0;m<cnt;m++){if(picks[s][r][m])data.p[s][r][m]=picks[s][r][m];}});});
+  if(picks.F)data.F=picks.F;
+  if(picks.T)data.T=picks.T;
+  return data;
+}
+function buildURL(){
+  try{
+    const payload=JSON.stringify(packPicks());
+    const compressed=btoa(unescape(encodeURIComponent(payload)));
+    const base=location.href.split('#')[0];
+    if(!base||base.startsWith('about:')||base.startsWith('blob:')||base.includes('srcdoc')){
+      return '#b='+compressed;
+    }
+    return base+'#b='+compressed;
+  }catch(e){return '';}
+}
+function buildText(){
+ const n=profile.name||'Someone',c=profile.cflag?profile.cflag+' '+profile.country:'';
+ const ch=picks.F,lSF=picks.L[3][0],rSF=picks.R[3][0];
+ let t=` FIFA World Cup 2026 Table\n`;
+ if(n!=='Someone')t+=`By ${n}${c?' ('+c+')':''}\n`;
+ t+='\n';
+ if(ch)t+=` Champion: ${ch.f} ${ch.n}\n`;
+ if(lSF&&rSF)t+=` Final: ${lSF.f} ${lSF.n} vs ${rSF.f} ${rSF.n}\n`;
+ if(picks.T)t+=` 3rd Place: ${picks.T.f} ${picks.T.n}\n`;
+ t+=`Final: Jul 19 · MetLife Stadium, NJ\n\n`;
+ return t;
+}
+
+function openShare(){
+ const isLocal=location.href.startsWith('file:')||location.href.startsWith('about:')||location.href.includes('srcdoc');
+ const canonicalURL='https://shazmoghaddam.github.io/wc2026';
+ const fullHashURL=buildURL();
+ // What goes in the copy-link box
+ const surlEl=document.getElementById('surl');
+ const surlNote=document.getElementById('surl-note');
+ if(isLocal){
+  surlEl.value=canonicalURL;
+  surlEl.style.color='var(--tx3)';
+  if(surlNote)surlNote.innerHTML='Upload to shazmoghaddam.github.io/wc2026 first — then the link will include your picks.';
+ } else {
+  surlEl.value=fullHashURL;
+  surlEl.style.color='';
+  if(surlNote)surlNote.innerHTML='Paste this link in a message or email so friends can see your bracket.';
+ }
+ // Post text area
+ const postTextEl=document.getElementById('spost-text');
+ if(postTextEl){
+  const txt=buildSocialText();
+  postTextEl.value=txt+(isLocal?'\n'+canonicalURL:'');
+ }
+ // Summary
+ const n=profile.name||'Your table',cf=profile.cflag?profile.cflag+' '+profile.country:'';
+ const ch=picks.F,lSF=picks.L[3][0],rSF=picks.R[3][0];
+ let s=`<strong>${n}</strong>${cf?' · '+cf:''}<br>`;
+ if(ch)s+=` Champion: <strong>${ch.f} ${ch.n}</strong><br>`;
+ if(lSF&&rSF)s+=` Final: ${lSF.f} ${lSF.n} vs ${rSF.f} ${rSF.n}<br>`;
+ if(picks.T)s+=` 3rd Place: ${picks.T.f} ${picks.T.n}<br>`;
+ let done=0;['L','R'].forEach(sd=>{[8,4,2,1].forEach((cnt,r)=>{for(let m=0;m<cnt;m++)if(picks[sd][r][m])done++;});});if(picks.F)done++;if(picks.T)done++;
+ s+=` ${done}/32 picks made`;
+ document.getElementById('ssum').innerHTML=s;
+ document.getElementById('smodal').classList.add('open');
+}
+function closeShare(){document.getElementById('smodal').classList.remove('open');}
+function closeShareOuter(e){if(e.target===document.getElementById('smodal'))closeShare();}
+
+function copyLink(inputId,label){
+ const el=document.getElementById(inputId);
+ if(!el||!el.value)return;
+ const msg=label||'Copied!';
+ navigator.clipboard.writeText(el.value).then(()=>toast(msg)).catch(()=>{el.select();document.execCommand('copy');toast(msg);});
+}
+
+function getShareUrl(){return buildURL();}
+
+function getCleanBaseURL(){
+ // Returns the canonical base URL without any hash.
+ // Social crawlers cannot read hash fragments, so we share the clean URL
+ // for the OG preview card, and keep the full hash URL for copy-link.
+ try{
+  const base=location.href.split('#')[0];
+  if(!base||base.startsWith('about:')||base.startsWith('blob:')||base.includes('srcdoc')){
+   return 'https://shazmoghaddam.github.io/wc2026';
+  }
+  return base;
+ }catch(e){return 'https://shazmoghaddam.github.io/wc2026';}
+}
+
+function buildSocialText(){
+ // Human-readable post text — no raw URL embedded
+ const n=profile.name||'Someone',c=profile.cflag?profile.cflag+' '+profile.country:'';
+ const ch=picks.F,lSF=picks.L[3][0],rSF=picks.R[3][0];
+ let t='FIFA World Cup 2026 — My Prediction\n';
+ if(n!=='Someone')t+=`👤 ${n}${c?' · '+c:''}\n`;
+ if(ch)t+=`🏆 Champion: ${ch.f} ${ch.n}\n`;
+ if(lSF&&rSF)t+=`🎯 Final: ${lSF.f} ${lSF.n} vs ${rSF.f} ${rSF.n}\n`;
+ if(picks.T)t+=`🥉 3rd: ${picks.T.f} ${picks.T.n}\n`;
+ return t;
+}
+
+function shareWA(){
+ const text=buildSocialText()+'\n🔗 '+getCleanBaseURL();
+ window.open('https://wa.me/?text='+encodeURIComponent(text),'_blank');
+}
+function shareX(){
+ const text=buildSocialText();
+ window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(text)+'&url='+encodeURIComponent(getCleanBaseURL()),'_blank');
+}
+function shareLinkedIn(){
+ // LinkedIn share-offsite shows the OG card for the URL.
+ // We pass the clean base URL (not the hash URL) so LinkedIn's crawler
+ // can fetch the og:image and og:title correctly.
+ window.open('https://www.linkedin.com/sharing/share-offsite/?url='+encodeURIComponent(getCleanBaseURL()),'_blank');
+}
+function shareInstagram(){
+ // Instagram can't follow links — copy the full hash URL for direct bracket sharing
+ const full=getShareUrl();
+ const el=document.getElementById('surl');
+ if(el)el.select();
+ navigator.clipboard.writeText(full).then(()=>toast('Link copied — paste into your Instagram bio or story!')).catch(()=>{document.execCommand('copy');toast('Link copied!');});
+}
+function shareTikTok(){
+ const full=getShareUrl();
+ navigator.clipboard.writeText(full).then(()=>toast('Link copied — paste into your TikTok bio or caption!')).catch(()=>{document.execCommand('copy');toast('Link copied!');});
+}
+let quizInitialised=false;
+let quizState={questions:[],idx:0,score:0,wrong:0,answered:false,history:[]};
+
+function getQUIZ_ALL(){
+ const tmpl=document.getElementById('quiz-data');
+ if(!tmpl)return[];
+ try{const raw=JSON.parse(tmpl.innerHTML);return raw.map(r=>({c:r[0],q:r[1],o:r[2],a:r[3],f:r[4]}));}
+ catch(e){return[];}
+}
+let QUIZ_ALL=[];
+
+function shuffle(arr){
+ const a=[...arr];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;
+}
+
+function getFilteredQuestions(){
+ return shuffle(QUIZ_ALL);
+}
+
+
+
+function initQuiz(){
+ if(!QUIZ_ALL.length) QUIZ_ALL=getQUIZ_ALL();
+ quizInitialised=true;
+ quizState={questions:getFilteredQuestions(),idx:0,score:0,wrong:0,answered:false,history:[]};
+ renderQuiz();
+}
+
+function confirmNewSet(){
+  if(quizState.idx===0){initQuiz();return;}
+  if(quizState.idx>=Math.min(quizState.questions.length,20)){initQuiz();return;}
+  // Mid-session: two-tap confirm
+  const btn=document.querySelector('.quiz-ctrl-btn[onclick="confirmNewSet()"]');
+  if(!btn)return;
+  if(btn.dataset.confirm==='1'){
+    btn.dataset.confirm='';
+    btn.textContent='↺ New set';
+    btn.style.background='';btn.style.color='';
+    initQuiz();
+  } else {
+    btn.dataset.confirm='1';
+    btn.textContent='Sure? (tap again)';
+    btn.style.background='#c0392b';btn.style.color='#fff';
+    setTimeout(()=>{
+      if(btn.dataset.confirm==='1'){
+        btn.dataset.confirm='';btn.textContent='↺ New set';
+        btn.style.background='';btn.style.color='';
+      }
+    },3000);
+  }
+}
+
+
+function renderQuiz(){
+ const root=document.getElementById('quiz-root');
+ if(!root)return;
+ const qs=quizState.questions;
+ const total=Math.min(qs.length,20);
+ const idx=quizState.idx;
+
+ if(idx>=total){renderQuizFinished(root,total);return;}
+
+ const q=qs[idx];
+ const opts=shuffle(q.o.map((o,i)=>({text:o,orig:i})));
+
+ let html=`<div class="quiz-wrap">
+ <div class="quiz-header">
+ <div class="quiz-header-left">
+ <h2>Halftime Quiz</h2>
+ <p>World Cup trivia — ${QUIZ_ALL.length} questions in the bank</p>
+ </div>
+ <div class="quiz-score-card">
+ <div class="quiz-score-item"><div class="quiz-score-num correct" id="qs-score">${quizState.score}</div><div class="quiz-score-lbl">Correct</div></div>
+ <div class="quiz-score-div"></div>
+ <div class="quiz-score-item"><div class="quiz-score-num wrong" id="qs-wrong">${quizState.wrong}</div><div class="quiz-score-lbl">Wrong</div></div>
+ <div class="quiz-score-div"></div>
+ <div class="quiz-score-item"><div class="quiz-score-num">${total-idx}</div><div class="quiz-score-lbl">Left</div></div>
+ </div>
+ </div>
+ <div class="quiz-controls">`;
+ html+=`<button class="quiz-ctrl-btn" onclick="confirmNewSet()" style="margin-left:auto">↺ New set</button>
+ </div>
+ <div class="quiz-progress-row">
+ <div class="quiz-prog-bar"><div class="quiz-prog-fill" style="width:${Math.round(idx/total*100)}%"></div></div>
+ <div class="quiz-prog-lbl">${idx+1} / ${total}</div>
+ </div>
+ <div class="quiz-card" id="quiz-card">
+ <div class="quiz-card-top">
+ <div class="quiz-q">${q.q}</div>
+ </div>
+ <div class="quiz-options">`;
+
+ opts.forEach((o,i)=>{
+ html+=`<button class="quiz-opt" id="qopt-${i}" onclick="answerQuiz(${o.orig},${q.a},${idx})">${o.text}</button>`;
+ });
+ html+=`</div>
+ <div id="quiz-feedback" style="display:none"></div>
+ </div></div>`;
+
+ root.innerHTML=html;
+}
+
+function answerQuiz(chosen,correct,qIdx){
+ if(quizState.answered)return;
+ quizState.answered=true;
+ const fact=quizState.questions[qIdx]?quizState.questions[qIdx].f:'';
+ const isCorrect=chosen===correct;
+ if(isCorrect)quizState.score++;else quizState.wrong++;
+
+ for(let i=0;i<4;i++){
+ const btn=document.getElementById('qopt-'+i);
+ if(!btn)continue;
+ btn.disabled=true;
+ const origIdx=parseInt(btn.getAttribute('onclick').match(/answerQuiz\((\d+)/)[1]);
+ if(origIdx===correct){btn.classList.add('correct');btn.classList.add('pop');}
+ else if(origIdx===chosen&&!isCorrect){btn.classList.add('wrong');}
+ else{btn.classList.add('reveal');}
+ }
+
+ const fb=document.getElementById('quiz-feedback');
+ fb.style.cssText='display:flex;align-items:center;gap:12px;padding:14px 20px 18px;border-top:0.5px solid var(--bd);animation:fadeIn .2s';
+ fb.innerHTML=`<div class="quiz-feedback-text">${fact}</div>
+ <button class="quiz-next-btn" onclick="nextQuestion()">${quizState.idx+1>=Math.min(quizState.questions.length,20)?'See results →':'Next →'}</button>`;
+ fb.classList.add('fadeIn');
+}
+
+function nextQuestion(){
+ quizState.idx++;
+ quizState.answered=false;
+ renderQuiz();
+}
+
+function renderQuizFinished(root,total){
+ const pct=Math.round(quizState.score/total*100);
+ let grade,gclass,icon,msg;
+ if(pct>=85){grade='A+';gclass='s';icon='';msg='World Cup expert! Incredible knowledge.';}
+ else if(pct>=70){grade='A';gclass='a';icon='';msg='Brilliant! You really know your World Cup history.';}
+ else if(pct>=55){grade='B';gclass='b';icon='';msg='Solid! A decent football knowledge base.';}
+ else if(pct>=40){grade='C';gclass='c-grade';icon='';msg='Not bad — keep watching and learning!';}
+ else{grade='D';gclass='d-grade';icon='';msg='Time to brush up on your World Cup history!';}
+
+ // Save best score
+ try{
+ const prev=JSON.parse(localStorage.getItem('wc2026_quiz_best')||'{"score":0,"total":0}');
+ if(pct>(prev.total?Math.round(prev.score/prev.total*100):0)){
+ localStorage.setItem('wc2026_quiz_best',JSON.stringify({score:quizState.score,total,date:new Date().toLocaleDateString()}));
+ }
+ }catch(e){}
+ const bestRaw=localStorage.getItem('wc2026_quiz_best');
+ const best=bestRaw?JSON.parse(bestRaw):null;
+ const bestLine=best?`<div style="font-size:11px;color:var(--tx3);margin-bottom:8px;"> Personal best: ${best.score}/${best.total} (${Math.round(best.score/best.total*100)}%) · ${best.date}</div>`:'';
+
+ root.innerHTML=`<div class="quiz-wrap">
+ <div class="quiz-finished">
+ <div class="quiz-finished-icon">${icon}</div>
+ <div class="quiz-grade ${gclass}">${grade}</div>
+ <h3>${quizState.score} / ${total} correct</h3>
+ <p>${msg}</p>
+ <p style="font-size:12px;color:var(--tx3);margin-bottom:8px;">${pct}% accuracy · ${total} questions from 188</p>
+ ${bestLine}
+ <button class="quiz-restart-btn" onclick="initQuiz()">Play again</button>
+
+ </div></div>`;
+}
+
+
+function launchConfetti(){
+ const c=document.createElement('canvas');
+ c.className='confetti-canvas';
+ document.body.appendChild(c);
+ const ctx=c.getContext('2d');
+ c.width=window.innerWidth;c.height=window.innerHeight;
+ const cols=['#2b7fd4','#f5c842','#e74c3c','#2ecc71','#9b59b6','#f39c12'];
+ const pieces=Array.from({length:120},()=>({
+ x:Math.random()*c.width,y:-20,w:8+Math.random()*8,h:14+Math.random()*8,
+ col:cols[Math.floor(Math.random()*cols.length)],
+ vx:(Math.random()-0.5)*4,vy:3+Math.random()*4,
+ rot:Math.random()*360,vr:(Math.random()-0.5)*6,op:1
+ }));
+ let frame=0;
+ function draw(){
+ ctx.clearRect(0,0,c.width,c.height);
+ pieces.forEach(p=>{
+ p.x+=p.vx;p.y+=p.vy;p.rot+=p.vr;
+ if(frame>80)p.op=Math.max(0,p.op-0.02);
+ ctx.save();ctx.globalAlpha=p.op;ctx.translate(p.x,p.y);
+ ctx.rotate(p.rot*Math.PI/180);ctx.fillStyle=p.col;
+ ctx.fillRect(-p.w/2,-p.h/2,p.w,p.h);ctx.restore();
+ });
+ frame++;
+ if(frame<160)requestAnimationFrame(draw);
+ else{c.remove();}
+ }
+ draw();
+}
+
+
+// ── KEYBOARD NAVIGATION ──────────────────────────────────────────────────────
+let kbFocus={side:'L',round:0,match:0,row:0};
+function getKbCard(){
+  const s=kbFocus.side,r=kbFocus.round,m=kbFocus.match;
+  const cols=document.querySelectorAll('.rcol[data-side="'+s+'"][data-round="'+r+'"]');
+  if(!cols.length)return null;
+  return cols[0].querySelectorAll('.mwrap')[m]||null;
+}
+function highlightKb(){
+  document.querySelectorAll('.mc.kb-focus').forEach(c=>c.classList.remove('kb-focus'));
+  const wrap=getKbCard();if(!wrap)return;
+  const mc=wrap.querySelector('.mc');
+  if(mc){mc.classList.add('kb-focus');mc.scrollIntoView({block:'nearest',behavior:'smooth'});}
+}
+document.addEventListener('keydown',e=>{
+  if(document.activeElement&&document.activeElement.classList.contains('quiz-opt'))return;
+  const isInput=['INPUT','SELECT','TEXTAREA'].includes(document.activeElement&&document.activeElement.tagName);
+  if(isInput)return;
+  const t=kbFocus;const maxMatch=[8,4,2,1];
+  if(e.key==='ArrowDown'){t.row=Math.min(1,t.row+1);e.preventDefault();highlightKb();}
+  else if(e.key==='ArrowUp'){t.row=Math.max(0,t.row-1);e.preventDefault();highlightKb();}
+  else if(e.key==='ArrowRight'){
+    if(t.round<3){t.round++;t.match=Math.min(t.match,maxMatch[t.round]-1);t.row=0;}
+    else if(t.side==='L'){t.side='R';t.round=3;t.match=0;t.row=0;}
+    e.preventDefault();highlightKb();
+  } else if(e.key==='ArrowLeft'){
+    if(t.round>0){t.round--;t.match=Math.min(t.match,maxMatch[t.round]-1);t.row=0;}
+    else if(t.side==='R'){t.side='L';t.round=3;t.match=0;t.row=0;}
+    e.preventDefault();highlightKb();
+  } else if((e.key==='Enter'||e.key===' ')&&!e.shiftKey){
+    const wrap=getKbCard();if(!wrap)return;
+    const rows=wrap.querySelectorAll('.tr:not(.tbd)');
+    if(rows[t.row]){rows[t.row].click();e.preventDefault();}
+  } else if(e.key==='u'||e.key==='U'){doUndo();}
+  else if(e.key==='Escape'){closeShare();closePrint();}
+});
+
+
+// ── REAL RESULTS ─────────────────────────────────────────────────────────────
+async function fetchRealResults(){
+  const el=document.getElementById('real-results-content');
+  if(!el)return;
+  el.innerHTML='<div style="text-align:center;padding:2rem;font-size:13px;color:var(--tx2);">Fetching results…</div>';
+  try{
+    // Note: football-data.org requires a free API key from football-data.org/client/register
+    const token='';
+    if(!token){
+      el.innerHTML=renderNoResults('Real results will be available once the knockout stage begins Jun 28. <br><br>To enable live scores, register for a free API key at <a href="https://www.football-data.org/client/register" target="_blank" style="color:var(--blua)">football-data.org</a> and add it to the source.');
+      return;
+    }
+    const res=await fetch('https://api.football-data.org/v4/competitions/WC/matches?stage=KNOCKOUT',{
+      headers:{'X-Auth-Token':token}
+    });
+    if(!res.ok)throw new Error('API unavailable ('+res.status+')');
+    const data=await res.json();
+    const matches=(data.matches||[]).filter(m=>m.stage&&m.stage.includes('ROUND')||m.stage==='LAST_16'||m.stage==='QUARTER_FINALS'||m.stage==='SEMI_FINALS'||m.stage==='FINAL');
+    if(!matches.length){el.innerHTML=renderNoResults();return;}
+    let h='<div style="background:var(--bg);border-radius:var(--rl);box-shadow:var(--sc);overflow:hidden;">';
+    h+='<div style="padding:12px 16px;border-bottom:0.5px solid var(--bd);font-size:11px;font-weight:700;color:var(--tx2);letter-spacing:.06em;text-transform:uppercase;">Real Results · WC 2026</div>';
+    matches.forEach(m=>{
+      const home=m.homeTeam.shortName||m.homeTeam.name,away=m.awayTeam.shortName||m.awayTeam.name;
+      const hs=m.score.fullTime.home,as2=m.score.fullTime.away;
+      const played=m.status==='FINISHED';
+      h+=`<div style="display:flex;align-items:center;padding:10px 16px;border-bottom:0.5px solid var(--bd);gap:10px;font-size:12px;">
+        <div style="flex:1;text-align:right;font-weight:${played&&hs>as2?700:400}">${home}</div>
+        <div style="min-width:50px;text-align:center;font-weight:700;color:var(--blua);font-size:13px;">${played?hs+' – '+as2:'vs'}</div>
+        <div style="flex:1;font-weight:${played&&as2>hs?700:400}">${away}</div>
+      </div>`;
+    });
+    h+='</div>';
+    const finished=matches.filter(m=>m.status==='FINISHED');
+    if(finished.length){
+      let correct=0;
+      finished.forEach(m=>{
+        const winner=m.score.fullTime.home>m.score.fullTime.away?m.homeTeam.name:m.awayTeam.name;
+        if(getAllPickedNames().has(winner))correct++;
+      });
+      h+=`<div style="background:var(--bg);border-radius:var(--rl);box-shadow:var(--sc);padding:16px;margin-top:12px;text-align:center;">
+        <div style="font-size:22px;font-weight:700;color:var(--tx)">${correct}/${finished.length}</div>
+        <div style="font-size:11px;color:var(--tx3);margin-top:2px">predictions correct so far</div>
+      </div>`;
+    }
+    el.innerHTML=h;
+  }catch(err){
+    el.innerHTML=renderNoResults('Could not load: '+err.message);
+  }
+}
+function renderNoResults(msg){
+  return '<div style="text-align:center;padding:2rem 1rem;background:var(--bg);border-radius:var(--rl);box-shadow:var(--sc);">'+
+    '<div style="font-size:13px;color:var(--tx2);">'+(msg||'No knockout results yet. Check back after Jun 28, 2026.')+'</div>'+
+    '<button class="abtn" onclick="fetchRealResults()" style="margin-top:12px;font-size:12px;">Try again</button></div>';
+}
+
+
+function loadHash(){
+ try{
+ const h=location.hash;if(!h.startsWith('#b='))return false;
+ const d=JSON.parse(decodeURIComponent(atob(h.replace('#b=',''))));
+ if(d.picks)picks=d.picks;if(d.profile)profile=d.profile;return true;
+ }catch(e){return false;}
+}
+
+let _tt;
+function toast(msg){const el=document.getElementById('toast');el.textContent=msg;el.classList.add('show');clearTimeout(_tt);_tt=setTimeout(()=>el.classList.remove('show'),2600);}
+
+// ── SCROLL: back-to-top + mobile sync ──
+window.addEventListener('scroll',()=>{
+  const bt=document.getElementById('back-top');
+  if(bt)bt.classList.toggle('visible',window.scrollY>300);
+},{passive:true});
+// sync mobile undo button state
+
+const shared=loadHash();
+if(!shared)load();
+populateCountries();
+restoreProfile();
+render();
+setBrkView(brkView);
+tick();setInterval(tick,1000);
+if(shared){
+ setTimeout(()=>{
+ const name=profile.name||'a shared';
+ const banner=document.createElement('div');
+ banner.className='compare-banner';
+ banner.innerHTML=`<div class="compare-banner-txt"> Viewing <strong>${name}'s table</strong> — <a href="${location.href.split('#')[0]}" style="color:var(--blua);font-weight:600;">Create your own</a></div>
+ <button class="compare-banner-btn" onclick="this.parentElement.remove()">✕</button>`;
+ const page=document.querySelector('.page');
+ if(page)page.insertBefore(banner,page.firstChild);
+ },300);
+}
+</script>
+
+<template id="quiz-data">[["History","In which year was the first FIFA World Cup held?",["1930","1934","1926","1938"],0,"Uruguay hosted and won the inaugural tournament."],["History","Which country hosted the first ever FIFA World Cup?",["Brazil","France","Uruguay","Argentina"],2,"Uruguay 1930 — the birth of the World Cup."],["History","Who scored the first ever goal in World Cup history?",["Lucien Laurent","Guillermo Stábile","Pedro Cea","Bert Patenaude"],0,"Lucien Laurent of France scored after 19 minutes vs Mexico on 13 July 1930."],["History","Which team won the first World Cup in 1930?",["Argentina","Uruguay","Brazil","USA"],1,"Uruguay beat Argentina 4–2 in the final in Montevideo."],["History","In what year did Brazil win their first World Cup?",["1950","1954","1958","1962"],2,"Brazil won their debut title in Sweden 1958, with a 17-year-old Pelé."],["History","Which nation has won the most World Cup titles?",["Germany","Italy","Argentina","Brazil"],3,"Brazil holds the record with 5 titles: 1958, 1962, 1970, 1994, 2002."],["History","What was significant about the 1950 World Cup final match?",["No penalty shootout","Played as a group game, not a final","First ever 0-0 draw","First golden goal"],1,"The 1950 final round was a round-robin; Brazil v Uruguay was the decisive game, not an…"],["History","Which years were FIFA World Cup tournaments cancelled due to World War II?",["1938 & 1942","1942 & 1946","1940 & 1944","1942 & 1950"],1,"Both the 1942 and 1946 World Cups were cancelled due to WWII. The tournament resumed in Brazil 1950."],["History","How many teams participated in the first World Cup in 1930?",["13","16","24","32"],0,"Only 13 nations competed — 4 European teams made the long voyage by ship."],["History","Which country has appeared in the most World Cup finals?",["Italy","Germany","Brazil","Argentina"],1,"Germany has appeared in 8 World Cup finals (1954,1966,1974,1982,1986,1990,2002,2014) — more than any other nation."],["History","In which year was the World Cup format expanded to 32 teams?",["1990","1994","1998","2002"],2,"France 1998 was the first 32-team World Cup."],["History","Which World Cup was the first to be held in Asia?",["2002","2006","2010","2014"],0,"Japan and South Korea co-hosted 2002 — the first in Asia and the first co-hosted…"],["History","Who were the joint hosts of the 2002 FIFA World Cup?",["Japan & China","South Korea & China","Japan & South Korea","China & Japan"],2,"The first ever jointly hosted World Cup between two nations."],["History","Which country became the first African nation to reach a World Cup semi-final?",["Senegal","Ghana","Cameroon","Morocco"],3,"Morocco stunned the world at Qatar 2022, beating Portugal to reach the semis."],["History","What year did women first get their own FIFA World Cup?",["1987","1991","1995","1999"],1,"The inaugural FIFA Women's World Cup was held in China 1991."],["Records","Who is the all-time top scorer in World Cup history?",["Ronaldo (Brazil)","Miroslav Klose","Gerd Müller","Pelé"],1,"Miroslav Klose scored 16 World Cup goals across four tournaments (2002–2014)."],["Records","How many goals did Miroslav Klose score in total across his World Cups?",["14","15","16","17"],2,"Klose scored 16 goals in 4 tournaments, surpassing Ronaldo Nazário's 15."],["Records","Which player has won the most World Cup winners' medals?",["Pelé","Ronaldo","Cafu","Didi"],0,"Pelé won three World Cup medals (1958, 1962, 1970), uniquely as a starter in each."],["Records","Who holds the record for most goals in a single World Cup tournament?",["Sandor Kocsis","Gerd Müller","Just Fontaine","Eusébio"],2,"Just Fontaine scored 13 goals for France at the 1958 World Cup — a record that still…"],["Records","What is the biggest ever margin of victory in a World Cup match?",["9–0","10–1","10–0","12–0"],1,"Hungary beat El Salvador 10–1 in 1982 — the record winning margin in World Cup history."],["Records","Which goalkeeper has kept the most clean sheets in World Cup history?",["Peter Shilton","Fabien Barthez","Iker Casillas","Oliver Kahn"],0,"Peter Shilton kept 10 clean sheets across the 1982, 1986, and 1990 tournaments."],["Records","What is the highest number of goals scored in a single World Cup match?",["10","11","12","14"],2,"Austria beat Switzerland 7–5 in 1954 — 12 goals total, the all-time record for a single World Cup match."],["Records","Which player has appeared in the most World Cup matches overall?",["Lionel Messi","Lothar Matthäus","Miroslav Klose","Cafu"],0,"Lionel Messi played 26 World Cup matches across 2006, 2010, 2014, 2018, and 2022."],["Records","How old was the youngest player ever to appear in a World Cup finals match?",["17 years 41 days","15 years 94 days","16 years 11 days","18 years 2 days"],0,"Norman Whiteside of Northern Ireland was 17 years and 41 days old at Spain 1982 — the youngest player in World Cup history."],["Records","Which country has the most World Cup appearances without winning?",["Mexico","Netherlands","Belgium","Scotland"],1,"The Netherlands have finished as runners-up three times (1974, 1978, 2010) without…"],["Records","Who scored a hat-trick in the 1966 World Cup final?",["Bobby Charlton","Martin Peters","Geoff Hurst","Roger Hunt"],2,"Geoff Hurst remains the only player to score a hat-trick in a World Cup final, England…"],["Records","Which team has the best overall World Cup win percentage?",["Brazil","Germany","France","Spain"],0,"Brazil holds the highest win percentage in World Cup history across all appearances."],["Records","How many goals did France score in the 1998 World Cup final?",["2","3","4","5"],1,"France beat Brazil 3–0 with goals from Zidane (2) and Petit in the Paris final."],["Records","Which team suffered the most famous World Cup upset, losing 7–1 in a semi-final?",["Argentina","Brazil","Italy","Spain"],1,"Germany 7–1 Brazil at the 2014 semi-final in Belo Horizonte — the Mineirazo."],["Records","Who is the only person to win the World Cup as both captain and manager?",["Didier Deschamps","Franz Beckenbauer","Johan Cruyff","Zinedine Zidane"],1,"Franz Beckenbauer is the only person to win the World Cup as captain (1974) and manager (1990), both with West Germany."],["Records","Which nation has scored the most total goals in World Cup history?",["Germany","Brazil","France","Argentina"],1,"Brazil have scored the most total goals in World Cup finals history."],["Players","Pelé won the World Cup in which three years?",["1954, 1958, 1962","1958, 1966, 1970","1958, 1962, 1970","1962, 1966, 1970"],2,"Pelé won in Sweden 1958 (age 17), Chile 1962, and Mexico 1970."],["Players","Which iconic move did Diego Maradona use in the 1986 quarter-final against England?",["Cruyff turn","Bicycle kick","Hand of God","Rabona"],2,"Maradona punched the ball into the net with his left hand — then scored the Goal of…"],["Players","Who scored the \"Goal of the Century\" at the 1986 World Cup?",["Zico","Diego Maradona","Romário","Roberto Baggio"],1,"Maradona dribbled past six England players in 11 seconds — voted the greatest goal…"],["Players","Ronaldo (R9) scored how many goals at the 2002 World Cup?",["6","7","8","9"],2,"Ronaldo scored 8 goals including both in the final against Germany, winning the Golden…"],["Players","Who won the Golden Ball (best player) at the 2022 World Cup?",["Kylian Mbappé","Luka Modrić","Lionel Messi","Julián Álvarez"],2,"Messi's masterclass in Qatar earned him a record second Golden Ball, crowning a…"],["Players","Which player holds the record for most goals scored in a single World Cup match?",["No player has scored more than 4","Oleg Salenko — 5 goals in one game","Gerd Müller — 4 goals in one game","Just Fontaine — 4 goals in one game"],1,"Oleg Salenko scored 5 goals for Russia against Cameroon at USA 1994 — still the all-time record for goals in a single World Cup match."],["Players","Which German legend is nicknamed \"Der Bomber\" for his prolific World Cup scoring?",["Karl-Heinz Rummenigge","Lothar Matthäus","Gerd Müller","Jürgen Klinsmann"],2,"Gerd Müller scored 14 World Cup goals and was the all-time top scorer before Klose…"],["Players","Lev Yashin — arguably the greatest goalkeeper ever — represented which country?",["Czechoslovakia","East Germany","Soviet Union","Poland"],2,"The Black Spider represented the Soviet Union and is the only goalkeeper to win the…"],["Players","Which two players shared the 1994 World Cup Golden Boot, both finishing with 6 goals?",["Romário & Roberto Baggio","Hristo Stoichkov & Oleg Salenko","Oleg Salenko & Romário","Stoichkov & Bebeto"],1,"Hristo Stoichkov (Bulgaria) and Oleg Salenko (Russia) both finished on 6 goals — the only time the Golden Boot has been officially shared. Salenko scored 5 of his 6 in a single match against Cameroon."],["Players","Which French player headbutted Marco Materazzi in the 2006 World Cup final?",["Thierry Henry","Patrick Vieira","Zinedine Zidane","Franck Ribéry"],2,"Zidane's infamous headbutt in his final professional game — he was sent off; France…"],["Players","Who was the youngest player to score in a World Cup final?",["Pelé","Wayne Rooney","Kylian Mbappé","Rivaldo"],0,"Pelé scored in the 1958 final aged 17 years and 249 days — still the youngest World…"],["Players","Bobby Moore lifted the World Cup trophy in which city?",["Manchester","London","Wembley","Birmingham"],2,"England beat West Germany 4–2 at Wembley in the 1966 final — Moore became a national…"],["Players","Which player is nicknamed \"La Pulga\" (The Flea)?",["Neymar","Ronaldinho","Lionel Messi","Luis Suárez"],2,"Messi's small stature earned him the nickname, but his play is anything but small."],["Players","Antoine Griezmann was awarded the Silver Boot at 2018. How many goals did he score?",["2","3","4","5"],1,"Griezmann scored 3 goals and provided 2 assists as France won. He won the Silver Boot behind Golden Boot winner Harry Kane."],["Players","Eusébio, Portugal's all-time legend, won the 1966 World Cup Golden Boot with how many goals?",["7","8","9","6"],2,"Eusébio scored 9 goals including 4 in a quarter-final comeback win over North Korea."],["Players","Which player scored a hat-trick in the 2018 World Cup group stage against Portugal?",["Romelu Lukaku","Kylian Mbappé","Cristiano Ronaldo","Harry Kane"],2,"Ronaldo scored a stunning late free-kick to complete his hat-trick and earn a 3–3 draw…"],["Players","At which youth World Cup did a teenage Lionel Messi win the Golden Ball and Golden Boot?",["FIFA U-17 World Cup 2003","FIFA U-20 World Cup 2005","FIFA U-20 World Cup 2007","Olympic Games 2008"],1,"Messi starred at the 2005 FIFA World Youth Championship in the Netherlands, winning both the Golden Ball (best player) and Golden Boot (top scorer) as Argentina won the tournament."],["Hosts","Which country hosted the 2010 FIFA World Cup?",["Nigeria","Ghana","South Africa","Egypt"],2,"South Africa became the first African nation to host the World Cup."],["Hosts","How many countries are co-hosting the 2026 FIFA World Cup?",["2","3","4","1"],1,"USA, Canada, and Mexico share hosting duties — the first three-nation World Cup."],["Hosts","Which stadium will host the 2026 World Cup final?",["Rose Bowl","Estadio Azteca","MetLife Stadium","AT&T Stadium"],2,"MetLife Stadium in East Rutherford, New Jersey will host the 2026 final on July 19."],["Hosts","Which country hosted the World Cup twice before 2026?",["France","Italy","Mexico","Brazil"],2,"Mexico hosted in 1970 and 1986 — and will again in 2026, making it the first…"],["Hosts","In which city was the 2014 World Cup final held?",["São Paulo","Brasília","Rio de Janeiro","Belo Horizonte"],2,"The Maracanã in Rio hosted Germany's 1–0 extra-time win over Argentina."],["Hosts","Which of these nations has won the World Cup as host? (select all that apply)",["Only Uruguay & Italy","Only England & France","Only Argentina & Germany","Uruguay, Italy, England, Argentina & France"],3,"Five nations have won as hosts: Uruguay 1930, Italy 1934, England 1966, Argentina 1978, and France 1998. Brazil hosted in 1950 and 2014 without winning either."],["Hosts","Which city in Mexico will host 2026 matches at the famous Estadio Azteca?",["Guadalajara","Monterrey","Mexico City","Puebla"],2,"Estadio Azteca in Mexico City hosted the 1970 and 1986 finals — and will again in 2026."],["Hosts","Which South American country hosted the 1978 World Cup?",["Brazil","Chile","Colombia","Argentina"],3,"Argentina hosted and won the 1978 World Cup under military dictatorship, defeating the…"],["Hosts","Qatar 2022 was held in which months — unusual for a World Cup?",["July–August","June–July","November–December","October–November"],2,"To avoid the extreme summer heat, the tournament was moved to November–December 2022."],["Hosts","Which US city hosted the 1994 World Cup final?",["New York","Chicago","Pasadena (LA)","Dallas"],2,"The Rose Bowl in Pasadena hosted Brazil's penalty shootout win over Italy."],["Hosts","The 2002 World Cup was notable for being the first held on which continent?",["Asia","Africa","Oceania","Both Asia and held jointly"],0,"Asia hosted for the first time — Japan and South Korea sharing duties."],["Hosts","Which European country hosted the 2006 World Cup?",["Spain","France","Germany","Italy"],2,"Germany hosted a celebrated \"Summer Fairy Tale\" tournament, finishing 3rd."],["Hosts","How many stadiums are being used in the USA for the 2026 World Cup?",["9","10","11","12"],2,"11 US venues will host matches, with Canada and Mexico providing 2 each for a total of…"],["Continents","Which confederation has produced the most World Cup champions?",["UEFA (Europe)","CONMEBOL (South America)","CONCACAF","CAF (Africa)"],0,"UEFA (Europe) leads with 12 titles: Germany 4, Italy 4, France 2, England 1, Spain 1. CONMEBOL (South America) has 10: Brazil 5, Argentina 3, Uruguay 2."],["Continents","Has an African team ever won the World Cup?",["Yes, Egypt 1930","Yes, Cameroon 1990","No — never","Yes, South Africa 2010"],2,"No African nation has won — Morocco's 2022 semi-final run is the continent's best result."],["Continents","Which Asian team reached the 2002 World Cup semi-finals?",["Japan","Saudi Arabia","South Korea","China"],2,"Co-hosts South Korea sensationally reached the semis, beating Spain and Italy along…"],["Continents","CONCACAF teams have only once reached a World Cup semi-final. Which nation?",["USA","Mexico","Cuba","Honduras"],0,"The USA reached the 1930 semi-finals — still the best CONCACAF performance at a World Cup."],["Continents","What is the name of the confederation covering South America?",["CAF","CONCACAF","CONMEBOL","AFC"],2,"CONMEBOL — Confederación Sudamericana de Fútbol — governs football across 10 South…"],["Continents","Which continent hosted a World Cup for the first time in 2010?",["Asia","Africa","Oceania","Middle East"],1,"Africa hosted for the first time ever when South Africa staged the 2010 tournament."],["Continents","Has an Oceania team ever reached the World Cup knockout stage?",["Yes, Australia 2006","Yes, New Zealand 2010","No","Yes, Australia 1974"],0,"Australia reached the Round of 16 in 2006, losing narrowly to Italy on a late Totti…"],["Awards","What is the name of the trophy awarded to the World Cup winner?",["The Jules Rimet Trophy","The FIFA World Cup Trophy","The Golden Cup","The World Football Trophy"],1,"The current trophy is known as the FIFA World Cup Trophy, introduced in 1974. The…"],["Awards","Why was the Jules Rimet Trophy permanently awarded to Brazil in 1970?",["They hosted the tournament","They won it three times","They scored the most goals","FIFA decided it"],1,"Rules stated any team winning the trophy three times would keep it permanently —…"],["Awards","What happened to the original Jules Rimet Trophy?",["Melted down","Lost at sea","Stolen twice — second time never recovered","In a museum"],2,"The trophy was stolen in 1966 before England's tournament (found by Pickles the dog),…"],["Awards","What is the Golden Boot awarded for at the World Cup?",["Best goal","Most goals scored","Best goalkeeper","Best young player"],1,"The Golden Boot (or Adidas Golden Shoe) goes to the tournament's top scorer."],["Awards","Who won the Golden Glove (best goalkeeper) at the 2022 World Cup?",["Hugo Lloris","Emiliano Martínez","Dominik Livaković","Thibaut Courtois"],1,"Emiliano Martínez made crucial saves throughout Argentina's campaign including a…"],["Awards","What is the FIFA Fair Play Trophy awarded for?",["No yellow cards","Best discipline record","Fastest goals","Fewest fouls"],1,"The Fair Play Trophy goes to the team with the best disciplinary record across the…"],["Awards","Who won the Best Young Player award at the 2018 World Cup?",["Kylian Mbappé","Luka Jović","Rodrygo","Marcus Rashford"],0,"Mbappé won the Best Young Player award aged 19, having also won the World Cup with France."],["Awards","Which award is given to the player judged best of the entire tournament?",["Golden Boot","Golden Ball","Ballon d'Or","Silver Cup"],1,"The Adidas Golden Ball, voted on by journalists, goes to the tournament's outstanding…"],["Awards","Lionel Messi won the Golden Ball at how many World Cups?",["1","2","3","4"],1,"Messi won the Golden Ball in 2014 (Argentina lost the final) and again in 2022 when…"],["Moments","What became known as the \"Miracle of Berne\"?",["England's 1966 win","West Germany beating Hungary in the 1954 final","France's comeback in 2022","Maradona's Hand of God"],1,"Hungary were unbeaten for 4 years and dominated the 1954 group stage, yet West Germany…"],["Moments","Which match was called the \"Battle of Santiago\"?",["England v Argentina 1966","Brazil v Uruguay 1950","Chile v Italy 1962","West Germany v France 1982"],2,"Chile vs Italy in 1962 was one of the most violent matches in World Cup history —…"],["Moments","What was the \"Disgrace of Gijón\" in 1982?",["A brawl","West Germany and Austria fixing a result","A player biting","A referee bribed"],1,"West Germany and Austria played out a gentlemen's agreement 1–0 result that…"],["Moments","In which World Cup did Senegal shock France, the defending champions, 1-0 in the group stage?",["1998","2002","2006","2010"],1,"At Japan/South Korea 2002, the opening match saw Senegal defeat defending champions…"],["Moments","Who saved a decisive penalty in the 2006 World Cup final shootout to win the title for Italy?",["Buffon","Cannavaro","Totti","He didn't save one — France missed"],3,"Zidane's headbutt saw him sent off; David Trezeguet hit the bar in the shootout,…"],["Moments","Which Italian striker missed the decisive penalty in the 1994 World Cup final shootout?",["Gianluca Vialli","Dino Baggio","Roberto Baggio","Gianluigi Buffon"],2,"Roberto Baggio's missed penalty — skied over the bar — handed Brazil the title. The iconic image of him standing with his head bowed became one of football's most poignant moments."],["Moments","What was the score when England lost to West Germany in the 1970 quarter-final after leading 2-0?",["2-2 AET","2-3","3-2","1-2"],1,"England led 2–0 but West Germany came back to win 3–2 in extra time in León, Mexico."],["Moments","The vuvuzela became iconic at which World Cup?",["2006","2010","2014","2018"],1,"South Africa 2010 introduced the world to the constant drone of the vuvuzela, the…"],["Moments","Which country did South Korea dramatically eliminate on penalties in the 2002 World Cup quarter-finals?",["Italy","Spain","Germany","France"],1,"South Korea beat Spain on penalties in the quarter-finals at the 2002 World Cup, having already knocked out Italy in the previous round — one of the tournament's greatest shocks."],["Finals","Which was the first World Cup final decided by a penalty shootout?",["Italy vs Brazil 1994","Argentina vs West Germany 1990","France vs Brazil 2006","Germany vs Argentina 2014"],0,"The 1994 final in Pasadena — Brazil vs Italy — was the first World Cup final ever decided on penalties. Brazil won 3–2 in the shootout after a 0–0 draw."],["Moments","In 1990, which World Cup produced the lowest-scoring tournament in history?",["Italy 1990","Spain 1982","Mexico 1986","USA 1994"],0,"Italia 1990 averaged just 2.21 goals per game — the lowest in World Cup history."],["Format","How many teams compete in the 2026 FIFA World Cup?",["32","40","48","64"],2,"2026 expands to 48 teams for the first time, split into 12 groups of 4."],["Format","What new round does the 48-team format introduce?",["Round of 48","Round of 32","Preliminary Round","Group of Death"],1,"The Round of 32 is a brand new knockout round — the first extra round in World Cup…"],["Format","How many automatic qualifying spots does UEFA (Europe) receive in 2026?",["13","16","14","12"],1,"UEFA receives 16 automatic spots in the expanded 2026 tournament."],["Format","Which team automatically qualified for the 2026 World Cup as hosts?",["USA only","USA and Mexico only","USA, Canada and Mexico","All North American teams"],2,"All three co-hosts — USA, Canada and Mexico — automatically qualified for the 2026…"],["Format","How many total matches are played at the 2026 World Cup?",["64","80","96","104"],3,"104 matches — up from 64 at the 32-team format — across the expanded 48-team tournament."],["Format","What percentage of qualified teams advance from each group in 2026?",["50%","33%","66%","75%"],0,"The top 2 from each group of 4 advance — 50% qualify from the group stage plus 8 best…"],["Format","How many days does the 2026 World Cup run across?",["32 days","35 days","39 days","42 days"],2,"The 2026 tournament runs from June 11 to July 19 — 39 days of football."],["Finals","Who scored the winning goal in the 2014 World Cup final?",["Thomas Müller","Mesut Özil","Mario Götze","André Schürrle"],2,"Götze's famous volleyed chest control and finish in extra time settled the Argentina…"],["Finals","Which team did France beat in the 1998 World Cup final?",["Italy","Germany","Brazil","England"],2,"France 3–0 Brazil at the Stade de France — Zidane scored twice from headers."],["Finals","The 2022 World Cup final between Argentina and France is considered one of the greatest ever. What was the score after extra time?",["3-3","2-2","4-4","3-2"],0,"Argentina led 2–0, France equalised to 2–2, then 3–3 in extra time — Argentina won 4–2…"],["Finals","How many World Cup finals has Argentina appeared in (including 2022)?",["4","5","6","7"],2,"Argentina have appeared in 6 World Cup finals: 1930 (lost), 1978 (won), 1986 (won), 1990 (lost), 2014 (lost), and 2022 (won). They have won 3."],["Finals","Which player scored in the 2022 final and also became the first to score in every round of a World Cup?",["Lionel Messi","Kylian Mbappé","Julián Álvarez","Antoine Griezmann"],1,"Mbappé scored a hat-trick in the final, becoming the first player to score in every…"],["Finals","Italy beat which nation on penalties in the 1994 World Cup final?",["Argentina","Germany","Brazil","Netherlands"],2,"Brazil vs Italy ended 0-0 after extra time — Brazil won 3–2 on penalties in the Rose Bowl."],["Finals","Which World Cup match was the first ever to be decided by a golden goal?",["France vs Paraguay 1998","Germany vs Czech Republic 1996","Germany vs Argentina 2014","Spain vs France 2000"],0,"France beat Paraguay with a golden goal from Laurent Blanc in the last 16 of France 1998 — the first golden goal in World Cup history."],["Finals","England's only World Cup win was in which year?",["1962","1966","1970","1974"],1,"England beat West Germany 4–2 at Wembley in 1966 — still their only international triumph."],["Finals","Which team appeared in consecutive World Cup finals in 1974 and 1978?",["Brazil","West Germany","Netherlands","Argentina"],2,"The Netherlands finished as runners-up in both 1974 (vs West Germany) and 1978 (vs…"],["Finals","Germany have appeared in the most World Cup finals. How many finals total?",["7","8","9","10"],1,"Germany/West Germany have appeared in 8 finals: 1954, 1966, 1974, 1982, 1986, 1990,…"],["Goalkeepers","Who was the starting goalkeeper for France when they won the 2018 World Cup?",["Benoît Costil","Steve Mandanda","Hugo Lloris","Alphonse Areola"],2,"Hugo Lloris wore the armband and kept goal as captain throughout France's winning…"],["Goalkeepers","Which goalkeeper famously saved three penalties in a quarter-final against England at the 2006 World Cup?",["Gianluigi Buffon","Jens Lehmann","Oliver Kahn","Edwin van der Sar"],1,"Jens Lehmann saved against Lampard and Gerrard to help Germany beat England on penalties."],["Goalkeepers","Who won the Golden Glove at the 2014 World Cup?",["Keylor Navas","Manuel Neuer","Tim Howard","Guillermo Ochoa"],1,"Manuel Neuer's sweeper-keeper style revolutionised goalkeeping — he won the Golden…"],["Goalkeepers","Tim Howard set a World Cup record with how many saves in a single match at 2014?",["13","14","15","16"],3,"Howard made 16 saves against Belgium — a World Cup record for a single match."],["Goalkeepers","Which goalkeeper conceded the infamous \"Hand of God\" goal in 1986?",["Peter Shilton","Ray Clemence","Neville Southall","Gordon Banks"],0,"Peter Shilton was the England goalkeeper beaten by Maradona's handball — and then by…"],["Quirks","Which dog is famous for finding the stolen Jules Rimet Trophy in 1966?",["Rex","Bobby","Pickles","Rover"],2,"Pickles the dog found the trophy wrapped in newspaper under a garden hedge in South…"],["Quirks","Which nation did not participate in the first three World Cups due to a dispute with FIFA?",["England","Germany","France","Spain"],0,"England didn't enter until 1950, having previously viewed the tournament as beneath…"],["Quirks","What number shirt did Pelé famously wear at the 1970 World Cup?",["9","10","11","7"],1,"The number 10 became synonymous with Pelé and Brazil — later worn by Zico, Ronaldinho,…"],["Moments","Which player infamously bit an opponent at the 2014 World Cup, earning a 9-match ban?",["Sergio Ramos","Luis Suárez","Giorgio Chiellini","Pepe"],1,"Luis Suárez bit Italy's Giorgio Chiellini on the shoulder in the group stage — his third such incident in professional football. He was banned for 9 international matches and 4 months from all football."],["Quirks","In 1950, which match shocked Brazil so badly it became known as the \"Maracanazo\"?",["Brazil 1-2 Spain","Brazil 1-2 Uruguay","Brazil 0-1 Argentina","Brazil 0-2 England"],1,"Uruguay beat Brazil 2–1 in the decisive match of the 1950 final round — 200,000 fans…"],["Quirks","What is the most common scoreline in World Cup history?",["1-0","1-1","2-1","2-0"],0,"1-0 is the most common result in World Cup finals matches."],["Quirks","Which team wore an innovative green away kit at the 2014 World Cup that became controversial in design?",["Mexico","Brazil","Cameroon","Germany"],2,"Cameroon's half-and-half mesh design was criticised by FIFA for allegedly not…"],["History","Which World Cup was the first to be held outside Europe and South America?",["USA 1994","Japan/South Korea 2002","Mexico 1970","South Africa 2010"],0,"The 1994 World Cup in the United States was the first to be held outside Europe or South America, bringing the tournament to North America for the first time."],["Qatar 2022","Who won the 2022 FIFA World Cup?",["France","Brazil","Argentina","Morocco"],2,"Argentina ended their 36-year wait, defeating France in an epic final in Lusail."],["Qatar 2022","Which stadium hosted the 2022 World Cup final?",["Al Bayt Stadium","Education City","Lusail Stadium","Khalifa International"],2,"Lusail Stadium, built specifically for the tournament, hosted the final on 18 December…"],["Qatar 2022","Who scored Argentina's first goal in the 2022 World Cup final?",["Messi","Ángel Di María","Julián Álvarez","Mac Allister"],0,"Messi coolly converted a penalty after Ángel Di María was fouled — Argentina led 1–0."],["Qatar 2022","Kylian Mbappé scored how many goals in the 2022 final?",["1","2","3","4"],2,"Mbappé's incredible hat-trick brought France from 2-0 down to level at 3-3 before…"],["Qatar 2022","Which nation surprisingly eliminated Germany in the group stage of Qatar 2022?",["Japan","South Korea","Morocco","Ecuador"],0,"Japan beat Germany 2–1 from behind — one of many upsets at the 2022 tournament."],["Qatar 2022","Who won the Golden Boot at the 2022 World Cup?",["Lionel Messi","Kylian Mbappé","Julián Álvarez","Olivier Giroud"],1,"Mbappé finished as top scorer with 8 goals — and won the Boot despite France's final…"],["Qatar 2022","Morocco reached the semi-finals of 2022 — which teams did they beat in the knockouts?",["Spain and Portugal","Spain, Portugal and France","Belgium and Germany","Cameroon and Brazil"],0,"Morocco beat Spain on penalties in the R16, then defeated Portugal 1–0 in the…"],["Qatar 2022","Which Argentina player saved two penalties in the 2022 final shootout?",["Franco Armani","Emiliano Martínez","Sergio Romero","Juan Musso"],1,"Emi Martínez was instrumental — saving from Coman and Tchouaméni to seal Argentina's…"],["Qatar 2022","How many goals did Spain concede in the 2022 group stage?",["0","1","2","3"],3,"Spain conceded 3 goals in the group stage: 1 to Germany (draw 1-1) and 2 to Japan (loss 1-2). Despite the loss to Japan, Spain qualified in second place."],["Milestones","Which World Cup was the first to use goal-line technology?",["South Africa 2010","Brazil 2014","Russia 2018","Qatar 2022"],1,"Goal Decision System (GLS) was introduced at Brazil 2014 after controversial decisions…"],["Milestones","VAR (Video Assistant Referee) was used at the World Cup for the first time in which year?",["2014","2016","2018","2022"],2,"Russia 2018 was the first World Cup to use VAR — leading to a record number of…"],["Milestones","Which was the first World Cup to be broadcast on television?",["1950","1954","1958","1962"],1,"Switzerland 1954 was the first World Cup broadcast on television, though only to a…"],["Milestones","Which World Cup saw the introduction of the offside trap camera system?",["2014","2018","2022","2026"],2,"Qatar 2022 introduced the semi-automated offside system, using multiple cameras and AI…"],["Milestones","In which year was the penalty shootout introduced at the World Cup?",["1970","1974","1978","1982"],3,"The penalty shootout debuted at the 1982 World Cup in Spain — the first was West…"],["Milestones","What was the first World Cup match to be decided by a penalty shootout?",["Brazil vs Italy 1982","West Germany vs France 1982","Spain vs Belgium 1982","Argentina vs England 1982"],1,"West Germany beat France 5–4 on penalties in the 1982 semi-final — the first shootout…"],["Milestones","When was the three points for a win rule introduced at the World Cup?",["1986","1990","1994","1998"],2,"The three points for a win rule was adopted from USA 1994, replacing the old…"],["Milestones","Which was the first World Cup to feature a third-place playoff match?",["1930","1934","1938","1950"],0,"The 1930 World Cup in Uruguay featured the very first third-place play-off — USA beat Yugoslavia 3–1 to claim bronze. Italy 1934 continued the tradition."],["Managers","Which manager has won the World Cup as both a player and a coach?",["Enzo Bearzot","Franz Beckenbauer","Johan Cruyff","Didier Deschamps"],1,"Franz Beckenbauer won in 1974 as captain of West Germany, then again as coach in 1990…"],["Managers","Who managed Brazil to their 1970 World Cup win?",["Zagallo","Telê Santana","Vanderlei Luxemburgo","Carlos Alberto Parreira"],0,"Mário Zagallo managed Brazil in 1970, having also won as a player in 1958 and 1962 —…"],["Managers","Which coach won three World Cups as a player and manager combined?",["Zagallo","Beckenbauer","Alf Ramsey","Vittorio Pozzo"],0,"Mário Zagallo won as a player (1958, 1962) and as coach (1970) — three World Cup…"],["Managers","Vittorio Pozzo is the only manager to win the World Cup twice. Which years?",["1930 & 1934","1934 & 1938","1938 & 1950","1934 & 1950"],1,"Pozzo led Italy to back-to-back victories in 1934 and 1938 — still the only person to…"],["Managers","Who managed Spain when they won their first World Cup in 2010?",["José Luis Camacho","Juande Ramos","Vicente del Bosque","Luis Aragonés"],2,"Vicente del Bosque guided Spain to their first and only World Cup triumph in South Africa."],["Managers","Didier Deschamps won the World Cup as both player and coach with France. In which years?",["1998 as player, 2018 as coach","2000 as player, 2018 as coach","1998 as player, 2022 as coach","2002 as player, 2018 as coach"],0,"Deschamps captained France in 1998 and coached them to their second title at Russia 2018."],["Quirks","Which tournament had the most own goals in history?",["Russia 2018","Brazil 2014","Qatar 2022","Germany 2006"],0,"Russia 2018 saw 12 own goals — a record for any World Cup tournament at the time."],["Quirks","Which World Cup had every single third-place match abandoned at half-time?",["This never happened","1930","1938","1950"],0,"This never happened — but 1930 had no third-place match at all, going straight to the…"],["Quirks","What animal became famous for \"predicting\" World Cup match results in 2010?",["A parrot","A pig","Paul the Octopus","A chimpanzee"],2,"Paul the Octopus from a German sea life centre correctly predicted all seven of…"],["Quirks","Spain became only the third country to win a World Cup held on a continent different from their own. Which two nations had done it before?",["Brazil (1958 & 1962) and Argentina (1986)","Brazil (multiple times) and Argentina (1978)","Uruguay (1950) and Brazil (1958)","Brazil (1994 & 2002) and Germany (2014)"],3,"Brazil won in USA 1994 and Japan/South Korea 2002, and Germany won in Brazil 2014 — all away from their home continent. Spain added their name to the list by winning in South Africa 2010."],["Quirks","North Korea's historic shock 1-0 win at the 1966 World Cup was against which nation?",["Soviet Union","Brazil","Italy","Chile"],2,"North Korea's 1–0 win over Italy in 1966 — sending the Azzurri home in shame —…"],["Quirks","Which team scored a last-minute penalty to equalise in the 2022 final and send it to extra time?",["Argentina","France","Croatia","Morocco"],1,"Mbappé's 97th-minute penalty levelled it at 3–3, forcing extra time in one of…"],["Russia 2018","Who won the 2018 FIFA World Cup?",["Croatia","England","Belgium","France"],3,"France beat Croatia 4-2 in the Moscow final with goals from Mandžukić OG, Griezmann,…"],["Russia 2018","Croatia reached their first World Cup final in 2018. Who was their captain?",["Ivan Rakitić","Mario Mandžukić","Luka Modrić","Dejan Lovren"],2,"Luka Modrić captained Croatia and won the Golden Ball — later winning the Ballon d'Or…"],["Russia 2018","Which team famously beat Germany in the group stage of Russia 2018?",["Mexico","South Korea","Sweden","Brazil"],0,"Mexico's 1-0 win over Germany in the Luzhniki Stadium sent shockwaves through the…"],["Russia 2018","Harry Kane won the Golden Boot in 2018 with how many goals?",["4","5","6","7"],2,"Kane scored 6 goals including a hat-trick against Panama and two free-kicks vs Tunisia."],["Russia 2018","Belgium finished 3rd at Russia 2018. Who did they beat in the third-place match?",["Croatia","England","Uruguay","France"],1,"Belgium beat England 2–0 in St Petersburg in the third-place play-off."],["CONMEBOL","Argentina won their third World Cup in 2022. Who was their captain?",["Ángel Di María","Sergio Agüero","Lionel Messi","Rodrigo De Paul"],2,"Messi lifted the trophy as captain — completing football's most celebrated career…"],["CONMEBOL","How many times have Uruguay won the World Cup?",["1","2","3","4"],1,"Uruguay won in 1930 (as hosts) and 1950 — they remain one of only eight champions."],["CONMEBOL","In which year did Brazil last win the World Cup?",["1998","2002","2006","2010"],1,"Brazil's last title was in 2002 in Japan/South Korea — they have not won since."],["CONMEBOL","Which Brazilian player was the talisman of the magical 1970 World Cup winning squad?",["Romário","Garrincha","Ronaldo","Pelé"],3,"Pelé's 1970 performance is often cited as the finest individual tournament by a…"],["CONMEBOL","Which Argentine manager guided the 1986 World Cup-winning team?",["Alfio Basile","Carlos Bilardo","César Luis Menotti","Daniel Passarella"],1,"Carlos Bilardo's pragmatic Argentina, inspired by Maradona, beat West Germany 3-2 in…"],["UEFA","Germany have won the World Cup how many times?",["3","4","5","6"],1,"West Germany/Germany have won in 1954, 1974, 1990, and 2014 — four titles."],["UEFA","Italy won four World Cups. Which years?",["1934, 1938, 1970, 1982","1934, 1938, 1982, 2006","1938, 1954, 1982, 2006","1930, 1934, 1982, 2006"],1,"Italy won in 1934, 1938, 1982, and 2006 — the 1982 win with Rossi was particularly…"],["UEFA","Spain's tiki-taka style dominated which era of World Cup football?",["1990s","2000s","Late 2000s to early 2010s","2014 onwards"],2,"Spain won Euro 2008, World Cup 2010, and Euro 2012 — an unprecedented treble of major…"],["UEFA","Which country did England beat in their 1966 World Cup final?",["France","Portugal","West Germany","Italy"],2,"England beat West Germany 4-2 — Hurst's controversial third goal (did it cross the…"],["UEFA","France won the World Cup on home soil in 1998. Which country provided Zinedine Zidane?",["France","Algeria","Morocco","Tunisia"],0,"Zidane was French — born in Marseille to Algerian immigrant parents. He played for…"],["UEFA","The Netherlands have been runners-up three times without winning. Which years?",["1974, 1978, 2002","1974, 1978, 2010","1966, 1978, 2010","1974, 1990, 2010"],1,"The Dutch lost finals in 1974 (vs West Germany), 1978 (vs Argentina), and 2010 (vs Spain)."],["Brazil 2014","Germany beat Brazil 7-1 in the 2014 semi-final. What was the score at half-time?",["4-0","5-0","5-1","3-0"],1,"Germany led 5-0 at half-time in the Mineirão — the horror continued in the second half."],["Brazil 2014","Who scored Germany's winning goal in the 2014 World Cup final against Argentina?",["Thomas Müller","Toni Kroos","Mario Götze","Miroslav Klose"],2,"Götze's brilliant 113th-minute volley from Schürrle's cross settled the final 1-0…"],["Brazil 2014","Colombia's James Rodríguez won the Golden Boot at 2014 with how many goals?",["4","5","6","7"],2,"Rodríguez scored 6 goals including a stunning volley against Uruguay — one of the…"],["Brazil 2014","The 2014 World Cup is nicknamed the \"Mineirazo\" — where did the 7-1 take place?",["Maracanã, Rio","Estádio Nacional, Brasília","Mineirão, Belo Horizonte","Arena Corinthians, São Paulo"],2,"The Mineirão stadium in Belo Horizonte hosted the historic humiliation of the home nation."],["Brazil 2014","Which goalkeeper was awarded Man of the Match in several Brazil 2014 games for remarkable saves?",["Tim Howard","Keylor Navas","Guillermo Ochoa","Jasper Cillessen"],2,"Guillermo Ochoa made save after incredible save for Mexico — particularly his display…"],["South Africa 2010","Who scored the winning goal in the 2010 World Cup final?",["David Villa","Xavi","Iniesta","Fernando Torres"],2,"Andrés Iniesta's 116th-minute goal in extra time defeated the Netherlands — becoming…"],["South Africa 2010","Which team beat France 2–0 in the 2010 group stage, contributing to their elimination?",["Mexico","South Africa","Uruguay","USA"],0,"Mexico beat France 2–0 in the group stage. South Africa also beat France 2–1 in the final group game, but it was Mexico's 2–0 win that first put France in serious trouble. Both results contributed to France's group-stage exit."],["South Africa 2010","What iconic sound dominated the atmosphere at the 2010 World Cup?",["Drumlines","Maracas","Vuvuzelas","Air horns"],2,"The vuvuzela's constant drone was heard worldwide — loved by fans, hated by commentators."],["South Africa 2010","Uruguay's Luis Suárez handled the ball on the goal line in the quarter-final against Ghana. What happened next?",["Penalty saved; Ghana lost","Penalty scored; Ghana won","Red card; Ghana scored","Free-kick; game went to extra time"],0,"Suárez was red-carded; Gyan hit the bar from the spot; Uruguay won on penalties — a…"],["South Africa 2010","Who won the Golden Ball at the 2010 World Cup?",["Iniesta","Xavi","David Villa","Diego Forlán"],3,"Diego Forlán's outstanding tournament for Uruguay earned him the Golden Ball — above…"],["Teams","Brazil's 1970 squad is widely considered the greatest ever. Who were their three famous forwards?",["Pelé, Romário, Ronaldo","Pelé, Garrincha, Jairzinho","Pelé, Jairzinho, Tostão","Garrincha, Didi, Pelé"],2,"Pelé, Jairzinho (scored in every match), and Tostão formed an unstoppable attacking trio."],["Teams","Which Hungarian team of the 1950s is considered one of the greatest never to win the World Cup?",["The Golden Team","The Magical Magyars","The Danube Dynamos","The Budapest Boys"],1,"The Magical Magyars — Puskás, Kocsis, Hidegkuti — went 4 years unbeaten but lost the…"],["Teams","Which Dutch team pioneered \"Total Football\" at the 1974 World Cup?",["Cruyff's Holland","Platini's France","Beckenbauer's Germany","Pelé's Brazil"],0,"Johan Cruyff's Netherlands played the most fluid, interchangeable football ever seen…"],["Teams","Which South Korean squad made the 2002 World Cup semi-finals, eliminating Spain and Italy?",["The Red Devils","Taeguk Warriors","Asian Tigers","Dragon Squad"],0,"South Korea's Red Devils, managed by Guus Hiddink, were the darlings of the co-hosted…"],["Pop Culture","The 1990 World Cup official song featured Luciano Pavarotti's version of which aria?",["O Sole Mio","Nessun Dorma","La Traviata","Caro mio ben"],1,"Pavarotti's \"Nessun Dorma\" became synonymous with Italia 1990 and introduced opera to…"],["Pop Culture","Which World Cup anthem became a global pop hit in 2010?",["Shakira's Waka Waka","K'Naan's Wavin' Flag","Ricky Martin's La Copa de la Vida","Pitbull's We Are One"],1,"K'Naan's \"Wavin' Flag\" — the official song of the 2010 World Cup — was a massive…"],["Pop Culture","Which 1998 World Cup host country had Ricky Martin perform the official anthem?",["France","Brazil","USA","Germany"],0,"Ricky Martin's \"La Copa de la Vida\" (La Copa de la Vida) was the official song for…"],["Pop Culture","Which South American striker is known for his \"suárez bite\" incidents at the World Cup?",["Edinson Cavani","Luis Suárez","Diego Forlan","Darwin Núñez"],1,"Luis Suárez bit Italy's Giorgio Chiellini at Brazil 2014 — his third biting incident…"],["Pop Culture","What are the names of the three official mascots for the 2026 FIFA World Cup?",["Striker, Corazón & Pique","Maple, Zayu & Clutch","Pique, Azteca & Liberty","Lobo, Eagle & Maple"],1,"FIFA unveiled three mascots in September 2025 — one per host nation: Maple the Moose (Canada), Zayu the Jaguar (Mexico), and Clutch the Bald Eagle (USA). The first time the World Cup has had three mascots."],["Stats","How many total goals were scored at Qatar 2022?",["168","172","179","185"],1,"172 goals were scored across 64 matches at the 2022 World Cup — an average of 2.69 per…"],["Stats","What is the record for most goals scored in a single World Cup edition?",["171 (Brazil 2014)","172 (Qatar 2022)","161 (France 1998)","145 (USA 1994)"],1,"Qatar 2022 produced 172 goals in 64 matches — surpassing the previous record of 171, which was held jointly by France 1998 and Brazil 2014."],["Stats","How old was Pelé when he scored in the 1958 World Cup final?",["16","17","18","19"],1,"Pelé was 17 years and 249 days old — making him the youngest scorer in a World Cup final."],["Stats","Which World Cup produced the record highest average goals per game?",["Uruguay 1930","Switzerland 1954","Brazil 1970","France 1998"],1,"The 1954 World Cup in Switzerland averaged 5.38 goals per match — still the all-time record. Classic matches included Austria 7–5 Switzerland and Hungary 10–1 El Salvador."],["Stats","How many different nations have won the FIFA World Cup?",["7","8","9","10"],1,"Eight nations have won: Brazil, Germany, Italy, Argentina, France, Uruguay, England,…"],["Stats","What percentage of World Cup hosts have won the tournament on home soil?",["22%","27%","29%","33%"],0,"5 of the 22 World Cup tournaments were won by the host nation: Uruguay 1930, Italy 1934, England 1966, Argentina 1978, and France 1998 — roughly 22% of all editions."]]</template>
+</body>
+</html>
